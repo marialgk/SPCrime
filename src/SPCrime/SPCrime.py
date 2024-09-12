@@ -6,9 +6,9 @@ Created on Mon Sep  9 13:59:14 2024
 """
 
 # Standard libraries
-import os
 from unidecode import unidecode
 from difflib import get_close_matches
+from importlib import resources
 
 # Matrices and dataframes
 import pandas as pd
@@ -65,37 +65,37 @@ def check_cep(series,
 # Source: https://www.cepaberto.com/downloads/new
 
 
-def build_cepDB(PATH):
+def build_cepDB():
     """
     Concatanates the tables from CEP Aberto database and add city names.
     """
-    working_dir = os.getcwd()
-    os.chdir(PATH)
-
-    # Em cepaberto.com, os ceps estão separados em 5 CSVs. Então devo concatenar.
     for i in [1, 2, 3, 4, 5]:
-        cep_file = f'sp.cepaberto_parte_{i}.csv'
-        cep_file = pd.read_csv(cep_file,
-                               index_col=0,
-                               names=['rua', 'cep_info', 'bairro', 'cidade', 'estado'],
-                               dtype=str)
+        csv_filename = f'sp.cepaberto_parte_{i}.csv'
+        
+        # Open the CSV file using importlib.resources
+        with resources.open_text('SPCrime.data.cep', csv_filename) as f:
+            cep_file = pd.read_csv(f,
+                                   index_col=0,
+                                   names=['rua', 'cep_info', 'bairro',
+                                          'cidade', 'estado'],
+                                   dtype=str)
         if i == 1:
             CEP = cep_file.copy()
         else:
             CEP= pd.concat([CEP, cep_file])
     
     # Na tabela de ceps, as cidades estão representadas por números.
-    cities = pd.read_csv('cities.csv',
-                         index_col='id',
-                         usecols=[0, 1],
-                         names=['id', 'cidade'],
-                         dtype=str)
+    with resources.open_text('SPCrime.data.cep', 'cities.csv') as f:
+        cities = pd.read_csv(f,
+                             index_col='id',
+                             usecols=[0, 1],
+                             names=['id', 'cidade'],
+                             dtype=str)
     cities = cities.T.to_dict(orient='list')
     
     CEP['cidade'] = pd.to_numeric(CEP['cidade']).replace(cities)
     CEP['cidade'] = CEP['cidade'].astype(str)
     
-    os.chdir(working_dir)
     return CEP
 
 
@@ -167,11 +167,12 @@ def norm_hood(name, abbreviation=False):
 # I made a table based on the website https://www.saopaulobairros.com.br/.
 
 
-def open_dist_dict(FILE):
+def open_dist_dict():
     """
     Loads database of neighbourhoods --> district. 
     """
-    dist = pd.read_csv(FILE, sep='\t', dtype=str)
+    with resources.open_text('SPCrime.data', 'districts.tsv') as f:
+        dist = pd.read_csv(f, sep='\t', dtype=str)
     dist = dist.set_index('Unnamed: 0')
     
     # Create a simplified neighbourhood > district table.
@@ -205,16 +206,19 @@ def neighbourhood2dist(df, dist_dict):
 # Dados de 2022: https://www.ssp.sp.gov.br/estatistica/consultas
 
 
-def open_crime_file(FILE):
+def open_crime_file(year):
     """
     Opens the SSP crime database. 
     """
-    crime_S1 = pd.read_excel(FILE,
-                            header=0,
-                            sheet_name=0)
-    crime_S2 = pd.read_excel(FILE,
-                            header=0,
-                            sheet_name=1)
+    file = f'{year.xlsx}'
+    
+    with resources.open_binary('SPCrime.data.crime', file) as f:
+        crime_S1 = pd.read_excel(f,
+                                header=0,
+                                sheet_name=0)
+        crime_S2 = pd.read_excel(f,
+                                header=0,
+                                sheet_name=1)
     
     crime = pd.concat([crime_S1,crime_S2],
                       axis=0)
@@ -303,16 +307,16 @@ def city_sp_districts(series, district_dict):
     return series
 
 
-def build_crimeDB(crime_db,
+def build_crimeDB(year,
                   dist_dict):
     """
     Returns a database with all the crimes that were registered in São Paulo
     state in a given year, and where they occured.
     Input:
-        crime_db = SSP-SP xlsx crime data corresponding to a whole single year.
+        crime_db = Year to calculate crime rates.
         dist_dict = dictionary opened by the the open_dist_dict() function.
     """
-    crime = open_crime_file(crime_db)
+    crime = open_crime_file(year)
     crime = standardize_crime(crime)
     crime = crime.apply(city_sp_districts,
                         district_dict=dist_dict,
@@ -413,15 +417,16 @@ def filter_crime_type(crime, crime_type):
 # Source: https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=37225&t=resultados
 
 
-def prepare_pop_data(state_file, capital_file):
+def prepare_pop_data():
     """
     Prepare population data for calculating the per capita rate.
     """
-    pop_cities = pd.read_excel(state_file,
-                               sheet_name='Tabela',
-                               header=0,
-                               usecols=['Unidade da Federação e Município',
-                                        'População residente (Pessoas)'])
+    with resources.open_binary('SPCrime.data.pop', 'state.xlsx') as f:
+        pop_cities = pd.read_excel(f,
+                                   sheet_name='Tabela',
+                                   header=0,
+                                   usecols=['Unidade da Federação e Município',
+                                            'População residente (Pessoas)'])
 
     new_names = {'Unidade da Federação e Município':'CITY',
                  'População residente (Pessoas)':'population'}
@@ -431,8 +436,9 @@ def prepare_pop_data(state_file, capital_file):
 
     # Prepare district population data
     # Source: https://www.nossasaopaulo.org.br/campanhas/#13
-    pop_dist = pd.read_excel(capital_file,
-                             header=0)
+    with resources.open_binary('SPCrime.data.pop', 'district.xlsx') as f:
+        pop_dist = pd.read_excel(f,
+                                 header=0)
     pop_dist = pop_dist.rename(columns={'DISTRITO': 'district',
                                         'População total': 'population'})
     pop_dist['district'] = pop_dist['district'].apply(norm_hood)
@@ -494,45 +500,40 @@ def add_crime_data(series, crime_rates, crimetype):
 ###############################################################################
 
 
-def CEP2neighbourhood(df,
-                      cep_path,
-                      build_cep=True,):
-    
-    # TODO: allow inputting csv, tsv or excel
+def mapCEP(df,
+           cep_path=np.nan,
+           autocorrect=False):
 
     df[['zip_code_check', 'wrong_zip']] = df.apply(check_cep,
-                                             autocorrect=0, # Add option
+                                             autocorrect=autocorrect,
                                              axis=1,
                                              result_type='expand')
-    if build_cep == True:
-        CEP = build_cepDB(cep_path)
+    if pd.isna(cep_path):
+        CEP = build_cepDB()
         CEP.to_csv('CEP_table_compiled.tsv', sep='\t')
     else:
         CEP = pd.read_csv(cep_path, sep='\t', dtype=str)
         CEP = CEP.set_index('Unnamed: 0')
     
-    df = cep2neighbourhood(df, 'zio_code_check', CEP)
+    df = cep2neighbourhood(df, 'zip_code_check', CEP)
     df['neighbourhood'] = df['neighbourhood'].apply(norm_hood)
-    districts = open_dist_dict('districts_compiled.tsv')
+    districts = open_dist_dict()
     df= neighbourhood2dist(df, districts)
     
     return districts, df
 
 
 def crime_rates(crime_type,
-                crime_db,
+                year,
                 districts,
-                state_file,
-                capital_file,
                 n_percapita=10000,
-                build_db=True):
+                crime_db=None):
 
     districts['district'] = districts['district'].apply(norm_hood)
     dist_dict = districts.set_index('neighbourhood')['district'].to_dict()
     
-    if build_db == True:
-        crime = build_crimeDB(crime_db, city_sp_districts,
-                              district_dict=dist_dict, axis=1)
+    if pd.isna(crime_db):
+        crime = build_crimeDB(year, district_dict=dist_dict, axis=1)
         crime.to_csv('all_crimes.tsv', sep='\t')
     else:
         crime = pd.read_csv(crime_db, sep='\t')
@@ -540,7 +541,7 @@ def crime_rates(crime_type,
     
     crime_freq = filter_crime_type(crime, crime_type)
     
-    pop = prepare_pop_data(state_file, capital_file)
+    pop = prepare_pop_data()
     
     crime_fq_rt = pd.DataFrame([crime_freq]).T
     crime_fq_rt[f'{crime_type}_rate'] = crime_fq_rt.apply(rate_calc,
@@ -552,7 +553,7 @@ def crime_rates(crime_type,
     return crime_fq_rt
 
 
-def main_step3(df, crimetype, crime_rates):
+def CEP2crime(df, crimetype, crime_rates):
     df = prepare_patientDB(df, crimetype)
     
     df_crime = df.apply(add_crime_data,
@@ -561,38 +562,23 @@ def main_step3(df, crimetype, crime_rates):
                         axis=1)
     return df_crime
                 
-def main(df,
-         crime_type,
-         output_name,
-         cep_path,
-         state_file,
-         capital_file,
-         crime_db,
-         build_cep=True,
-         build_db=True,
-         n_percapita=10000):
+def SPCrime(df,
+            crime_type,
+            year,
+            output_name,
+            cep_path=None,
+            autocorrect=False,
+            crime_db=None,
+            n_percapita=10000):
 
-    districts, df_code = main_step1(df, cep_path, build_cep)
+    districts, df_code = mapCEP(df, cep_path, autocorrect)
     
-    crime_freq = main_step2(crime_type, crime_db, districts, state_file,
-                            capital_file, n_percapita=10000, build_db=build_db)
+    crime_freq = crime_rates(crime_type,
+                             year,
+                             districts,
+                             n_percapita=n_percapita,
+                             crime_db=None)
     
-    df_code_crime = main_step3(df_code, crime_type, crime_freq)
+    df_code_crime = CEP2crime(df_code, crime_type, crime_freq)
 
     df_code_crime.to_csv(f'{output_name}.tsv', sep='\t')
-
-
-os.chdir('H:/Meu Drive/resumos e papers/bsb2024/SPCrime')
-df_old = pd.read_csv('patients_with_zip.tsv', sep='\t', encoding='utf-8',
-                     converters={'zip_code':str})
-
-main(df_old,
-     'cvli_cvnli',
-     'test_cvi',
-     'CEP_table_compiled.tsv',
-     'tabela_2_1_SP.xlsx',
-     'Mapa-da-Desigualdade-2022_formatado.xlsx',
-     build_cep=False,
-     build_db=False,
-     crime_db='all_crimes.tsv')
-
