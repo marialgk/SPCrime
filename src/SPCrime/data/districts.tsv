@@ -1,0 +1,2286 @@
+	district	neighbourhood	in_dist
+75	Liberdade	aclimacao	1
+97	Jardim Ângela	alto da baronesa	1
+254	Santo Amaro	alto da boa vista	1
+359	Lapa	alto da lapa	1
+445	Água Rasa	alto da mooca	1
+574	Pari	alto da pari	1
+577	Jardim Ângela	alto da riviera	1
+761	Alto de Pinheiros	alto de pinheiros	1
+807	Ipiranga	alto do ipiranga	1
+910	Vila Prudente	altos de vila prudente	1
+966	Cidade Ademar	americanopolis	1
+969	Jabaquara	americanopolis	1
+1101	Vila Maria	andarai	1
+1224	Anhanguera	anhanguera	1
+1305	Aricanduva	aricanduva	1
+1398	Artur Alvim	artur alvim	1
+1440	Grajaú	bnh	1
+1566	Vila Jacuí	bairro do limoeiro	1
+1633	Jardim Ângela	balneario dom carlos	1
+1747	Pedreira	balneario mar paulista	1
+1843	Pedreira	balneario sao francisco	1
+1941	Parelheiros	balneario sao jose	1
+2020	Sacomã	bandeirantes	1
+2194	Vila Guilherme	bariri	1
+2209	Jardim Ângela	baronesa	1
+2318	Cidade Tiradentes	barra	1
+2414	Cidade Tiradentes	barra tres poderes	1
+2517	Parelheiros	barragem	1
+2595	Sapopemba	barreira grande	1
+2702	Cidade Tiradentes	barro branco	1
+2740	Tucuruvi	barro branco	1
+2855	Lapa	bela alianca	1
+2958	Bela Vista	bela vista	1
+3055	Belém	belenzinho	1
+3151	Belém	belem	1
+3246	Bela Vista	bixiga	1
+3353	Alto de Pinheiros	boacava	1
+3450	Bom Retiro	bom retiro	1
+3469	Tremembé	bortolandia	1
+3601	Cursino	bosque da saude	1
+3722	Campo Belo	brooklin novo	1
+3818	Campo Belo	brooklin paulista	1
+3927	Brás	bras	1
+3992	Ponte Rasa	burgo paulista	1
+4115	Butantã	butanta	1
+4152	Cachoeirinha	cachoeirinha	1
+4309	Cambuci	cambuci	1
+4360	Campo Grande	campininha	1
+4490	Campo Belo	campo belo	1
+4552	Campo Grande	campo grande	1
+4621	Tremembé	campo limpo	1
+4772	Santa Cecília	campos elisios	1
+4850	Perdizes	campos da escolastica	1
+4921	Cangaíba	cangaiba	1
+5086	Pari	caninde	1
+5088	Grajaú	cantinho do ceu	1
+5194	Jaraguá	capela da lagoa	1
+5368	Socorro	capela do socorro	1
+5378	Capão Redondo	capelinha	1
+5474	Capão Redondo	capao redondo	1
+5623	Vila Formosa	capao do embira	1
+5746	Vila Guilherme	carandiru	1
+5823	Carrão	carrao	1
+5879	São Rafael	carraozinho	1
+5919	Carrão	carraozinho	1
+5973	Parelheiros	casa grande	1
+6118	Casa Verde	casa verde	1
+6214	Casa Verde	casa verde alta	1
+6310	Casa Verde	casa verde baixa	1
+6406	Casa Verde	casa verde media	1
+6446	Cidade Tiradentes	castro alves	1
+6607	Belém	catumbi	1
+6717	Sé	centro	1
+6786	Jardim Paulista	cerqueira cesar	1
+6857	Santana	chora menino	1
+6913	Jardim Ângela	chacara bandeirantes	1
+7063	Vila Formosa	chacara belenzinho	1
+7125	Parelheiros	chacara bosque do sul	1
+7263	Carrão	chacara california	1
+7296	Grajaú	chacara cocaia	1
+7417	Cangaíba	chacara cruzeiro do sul	1
+7570	Vila Guilherme	chacara cuoco	1
+7612	Freguesia do Ó	chacara domilice	1
+7692	Itaim Paulista	chacara dona olivia	1
+7781	Jardim São Luís	chacara figueira grande	1
+7934	Santo Amaro	chacara flora	1
+7969	Jardim Ângela	chacara florida	1
+8080	Pirituba	chacara inglesa	1
+8098	Saúde	chacara inglesa	1
+8211	Itaim Bibi	chacara itaim	1
+8318	Santo Amaro	chacara japonesa	1
+8424	Anhanguera	chacara jaragua	1
+8448	Grajaú	chacara lagoinha	1
+8605	Água Rasa	chacara mafalda	1
+8693	Tatuapé	chacara maranhao	1
+8795	Perus	chacara maria trindade	1
+8847	Cidade Dutra	chacara meyer	1
+8990	Santo Amaro	chacara monte alegre	1
+9039	Cidade Dutra	chacara monte sol	1
+9173	Tatuapé	chacara nani	1
+9244	Freguesia do Ó	chacara nossa senhora aparecida	1
+9317	Jardim São Luís	chacara nossa senhora do bom conselho	1
+9469	Água Rasa	chacara paraiso	1
+9512	Campo Limpo	chacara pirajussara	1
+9662	Santo Amaro	chacara pouso alegre	1
+9697	Jardim Ângela	chacara santa maria	1
+9797	Jardim São Luís	chacara santana	1
+9950	Santo Amaro	chacara santo antonio	1
+9951	Carrão	chacara santo antonio	1
+10005	Parelheiros	chacara santo hubertus	1
+10128	Vila Matilde	chacara seis de outubro	1
+10177	Jardim Ângela	chacara sonho azul	1
+10332	Jaçanã	chacara sao joao	1
+10364	Jaguara	chacara sao joao	1
+10430	Santo Amaro	chacara sao luis	1
+10485	Parelheiros	chacara sao silvestre	1
+10639	Belém	chacara tatuape	1
+10661	Jardim São Luís	chacara tres caravelas	1
+10785	Jardim Helena	chacara tres meninas	1
+10853	Jardim São Luís	chacara vista alegre	1
+10965	Parelheiros	chacara da enseada	1
+11071	Penha	chacara da penha	1
+11183	Mandaqui	chacara do encosto	1
+11232	Grajaú	chacara do sol	1
+11349	Parelheiros	chacaras lago grande	1
+11478	Artur Alvim	cidade a.e. carvalho	1
+11526	Cidade Ademar	cidade ademar	1
+11618	Capão Redondo	cidade auxiliadora	1
+11795	Butantã	cidade bandeirantes	1
+11828	São Mateus	cidade centenario	1
+11931	São Lucas	cidade continental	1
+12009	Jabaquara	cidade domitila	1
+12111	Cidade Dutra	cidade dutra	1
+12202	Jaraguá	cidade d'abril	1
+12293	Jardim São Luís	cidade fim de semana	1
+12464	Jaguaré	cidade industrial jaguare	1
+12481	Jardim Ângela	cidade ipava	1
+12662	Morumbi	cidade jardim	1
+12678	Cidade Ademar	cidade julia	1
+12780	Itaim Paulista	cidade kemel	1
+12873	Jabaquara	cidade leonor	1
+12960	Grajaú	cidade luz	1
+13085	Cidade Líder	cidade lider	1
+13203	Itaim Bibi	cidade moncoes	1
+13301	Tatuapé	cidade mae do ceu	1
+13411	São Miguel	cidade nitro operaria	1
+13473	Jardim Helena	cidade nitro quimica	1
+13540	Sacomã	cidade nova heliopolis	1
+13699	São Miguel	cidade nova sao miguel	1
+13776	Vila Matilde	cidade patriarca	1
+13868	Guaianases	cidade popular	1
+13929	Jabaquara	cidade presidente vargas	1
+14037	Parelheiros	cidade satelite	1
+14132	São Mateus	cidade satelite santa barbara	1
+14240	Rio Pequeno	cidade sao francisco	1
+14324	São Mateus	cidade sao mateus	1
+14467	São Miguel	cidade sao miguel	1
+14510	Cidade Tiradentes	cidade tiradentes	1
+14675	Butantã	cidade universitaria	1
+14697	Jabaquara	cidade vargas	1
+14784	Grajaú	cipo do meio	1
+14938	São Domingos	city america	1
+15059	Butantã	city butanta	1
+15167	Marsilac	clube campestre de sao paulo	1
+15206	Raposo Tavares	cohab educandario	1
+15266	Capão Redondo	cohab monet	1
+15398	Raposo Tavares	cohab raposo tavares	1
+15491	José Bonifácio	colonia	1
+15552	Grajaú	colonia do grajau	1
+15661	Tremembé	condominio reserva cantareira	1
+15757	Tremembé	condominio uniserve	1
+15850	Jaraguá	conjunto bandeirantes	1
+16016	Jaguaré	conjunto butanta	1
+16042	Jaraguá	conjunto city jaragua	1
+16140	Itaim Paulista	conjunto encosta norte	1
+16237	Tremembé	conjunto estrela dalva	1
+16333	Tremembé	conjunto flor de maio	1
+16427	Itaquera	conjunto habitacional a.e. carvalho	1
+16526	Cidade Tiradentes	conjunto habitacional barro branco i	1
+16622	Cidade Tiradentes	conjunto habitacional barro branco ii	1
+16714	Jaraguá	conjunto habitacional brigadeiro edutardo gomes	1
+16831	Penha	conjunto habitacional chaparral	1
+16931	José Bonifácio	conjunto habitacional fazenda do carmo	1
+16994	Capão Redondo	conjunto habitacional instituto adventista	1
+17090	Capão Redondo	conjunto habitacional jd sao bento	1
+17238	Artur Alvim	conjunto habitacional jose de anchieta	1
+17324	Guaianases	conjunto habitacional juscelino kubitschek	1
+17379	Sapopemba	conjunto habitacional marechal mascarenhas de morais	1
+17526	Artur Alvim	conjunto habitacional padre manoel da nobrega	1
+17622	Artur Alvim	conjunto habitacional padre manoel de paiva	1
+17666	Capão Redondo	conjunto habitacional pirajussara	1
+17819	Perus	conjunto habitacional recanto dos humildes	1
+17859	Sapopemba	conjunto habitacional teotonio vilela	1
+17962	Jaraguá	conjunto habitacional turistica	1
+18072	Cachoeirinha	conjunto habitacional vila nova cachoeirinha	1
+18155	Itaquera	conjunto habitacional aguia de haia	1
+18324	Vila Leopoldina	conjunto haddad	1
+18339	Sapopemba	conjunto jau	1
+18492	Jaçanã	conjunto jova rural	1
+18531	Sapopemba	conjunto lar nacional	1
+18631	Brasilândia	conjunto promorar estrada da parada	1
+18758	Raposo Tavares	conjunto promorar raposo tavares	1
+18839	São Rafael	conjunto promorar rio claro	1
+18915	Sapopemba	conjunto promorar sapopemba	1
+19013	Jardim São Luís	conjunto promorar sao luis	1
+19149	Vila Maria	conjunto promorar vila maria	1
+19210	Jaraguá	conjunto residencial alpes do jaragua	1
+19379	Butantã	conjunto residencial butanta	1
+19402	Jaraguá	conjunto residencial elisio teixeira leite	1
+19503	Cidade Dutra	conjunto residencial flavia	1
+19603	Pedreira	conjunto residencial ingai	1
+19752	Anhanguera	conjunto residencial jardim canaa	1
+19811	José Bonifácio	conjunto residencial jose bonifacio	1
+19909	Vila Sônia	conjunto residencial morumbi	1
+20032	Limão	conjunto residencial novo pacaembu	1
+20136	Anhanguera	conjunto residencial paraiso	1
+20200	Campo Grande	conjunto residencial sabara	1
+20271	Cidade Dutra	conjunto residencial salvador tolezani	1
+20399	Mandaqui	conjunto residencial santa terezinha	1
+20495	Mandaqui	conjunto residencial santo antonio	1
+20547	Sapopemba	conjunto residencial sitio oratorio	1
+20656	Pirituba	conjunto residencial vista verde	1
+20746	Jaraguá	conjunto santa marta	1
+20845	Tremembé	conjunto sobradinho	1
+20938	Jaraguá	conjunto vila brasilandia	1
+21034	Jaraguá	conjunto vista linda	1
+21130	Jaraguá	conjunto vista livre	1
+21226	Jaraguá	conjunto voith	1
+21330	Lajeado	conjunto da paz	1
+21455	Mandaqui	conjunto dos bancarios	1
+21585	Consolação	consolacao	1
+21605	Jardim São Luís	copacabana	1
+21696	Grajaú	corujas	1
+21793	Jardim Ângela	cumbica	1
+21894	Cidade Ademar	cupece	1
+22033	Cursino	cursino	1
+22119	Ipiranga	dom pedro i	1
+22214	Raposo Tavares	educandario	1
+22291	Pedreira	eldorado	1
+22389	Parelheiros	embura	1
+22489	Cangaíba	engenheiro goulart	1
+22655	Marsilac	engenheiro marsilac	1
+22687	Penha	engenheiro trindade	1
+22795	Ermelino Matarazzo	ermelino matarazzo	1
+22858	Jaraguá	estancia jaragua	1
+22945	Jardim Ângela	estancia mirim	1
+23041	Jardim Ângela	estancia tangara	1
+23216	Jaguaré	favela vila nova jaguare	1
+23261	Cidade Líder	fazenda aricanduva	1
+23401	Parque do Carmo	fazenda caguacu	1
+23436	Itaim Paulista	fazenda itaim	1
+23606	Morumbi	fazenda morumbi	1
+23689	Parque do Carmo	fazenda nossa senhora do carmo	1
+23715	Sapopemba	fazenda da juta	1
+23843	José Bonifácio	fazenda do carmo	1
+23941	Vila Sônia	ferreira	1
+24014	Cidade Tiradentes	ferroviarios	1
+24124	Freguesia do Ó	freguesia do o	1
+24205	Tremembé	furnas	1
+24288	Grajaú	gaivotas	1
+24457	Parque do Carmo	gleba do pessego	1
+24555	Liberdade	glicerio	1
+24576	Grajaú	grajau	1
+24734	Santo Amaro	granja julieta	1
+24783	Cidade Dutra	granja nossa senhora aparecida	1
+24878	Cidade Tiradentes	graficos	1
+24979	Pedreira	guacuri	1
+25100	Guaianases	guaianases	1
+25183	Penha	guaiauna	1
+25308	Jaçanã	guapira	1
+25349	Jardim São Luís	guarapiranga	1
+25521	Consolação	higienopolis	1
+25605	Mooca	hipodromo	1
+25645	Tremembé	horto	1
+25741	Tremembé	horto florestal	1
+25832	Campo Limpo	horto do ipe	1
+25985	Moema	ibirapuera	1
+26038	Iguatemi	iguatemi	1
+26112	Grajaú	ilha do borore	1
+26249	Santana	imirim	1
+26369	Moema	indianopolis	1
+26483	Butantã	inocoop	1
+26579	Butantã	instituto de previdencia	1
+26680	Socorro	interlagos	1
+26702	Cidade Tiradentes	inacio monteiro	1
+26823	Ipiranga	ipiranga	1
+26908	Freguesia do Ó	itaberaba	1
+27027	Itaim Bibi	itaim	1
+27123	Itaim Bibi	itaim bibi	1
+27180	Itaim Paulista	itaim paulista	1
+27285	Parelheiros	itaim de parelheiros	1
+27371	Itaquera	itaquera	1
+27475	Pedreira	itatinga	1
+27557	Jardim São Luís	itupu	1
+27657	Jabaquara	jabaquara	1
+27765	Parelheiros	jaceguava	1
+27932	Jaguara	jaguara	1
+28016	Jaguaré	jaguare	1
+28042	Jaraguá	jaragua	1
+28160	Rio Pequeno	jardim adalgisa	1
+28235	Itaquera	jardim adelaide	1
+28379	Perus	jardim adelfiore	1
+28499	Butantã	jardim ademar	1
+28595	Butantã	jardim adhemar de barros	1
+28611	Sapopemba	jardim adutora	1
+28732	Freguesia do Ó	jardim adelia	1
+28874	Campo Belo	jardim aeroporto	1
+28960	Limão	jardim aida	1
+29004	Itaim Paulista	jardim aimore	1
+29109	Parelheiros	jardim aladim	1
+29186	Capão Redondo	jardim albano	1
+29283	Sapopemba	jardim alexandrina	1
+29381	Jardim São Luís	jardim alfredo	1
+29525	Tatuapé	jardim alice	1
+29575	Brasilândia	jardim almanara	1
+29685	Parelheiros	jardim almeida	1
+29760	Grajaú	jardim almeida prado	1
+29871	Cidade Dutra	jardim alpino	1
+29974	Iguatemi	jardim alto alegre	1
+29975	São Rafael	jardim alto alegre	1
+30115	São Miguel	jardim alto pedroso	1
+30184	Campo Grande	jardim alva	1
+30250	Jaraguá	jardim alvina	1
+30357	Parelheiros	jardim alviverde	1
+30434	Capão Redondo	jardim alvorada (capao redondo)	1
+30528	Grajaú	jardim alvorada (grajau)	1
+30631	Brasilândia	jardim alvorada (zona norte)	1
+30757	Vila Sônia	jardim alvorada (zona oeste)	1
+30819	Sapopemba	jardim alzira	1
+30950	Raposo Tavares	jardim amaralina	1
+31025	Vila Andrade	jardim ampliacao	1
+31106	Capão Redondo	jardim amalia	1
+31215	Cidade Dutra	jardim amelia	1
+31362	Jardim Paulista	jardim america	1
+31423	Penha	jardim america da penha	1
+31503	Cidade Dutra	jardim ana lucia	1
+31588	Sacomã	jardim ana maria	1
+31591	Brasilândia	jardim ana maria	1
+31592	Campo Limpo	jardim ana maria	1
+31683	Sapopemba	jardim ana rosa	1
+31785	Jabaquara	jardim anchieta	1
+31887	Cidade Dutra	jardim angelina	1
+32008	Campo Grande	jardim anhanguera	1
+32040	Anhanguera	jardim anhanguera	1
+32121	Aricanduva	jardim antonieta	1
+32184	Cachoeirinha	jardim antartica	1
+32311	Vila Formosa	jardim analia franco	1
+32371	Pedreira	jardim aparecida	1
+32461	Tremembé	jardim apuana	1
+32563	Pedreira	jardim apura	1
+32641	Jardim Ângela	jardim aracati	1
+32758	Iguatemi	jardim arantes	1
+32832	Grajaú	jardim arco-iris	1
+32985	Aricanduva	jardim aricanduva	1
+33053	Cidade Líder	jardim arize	1
+33145	Cangaíba	jardim arizona	1
+33254	Raposo Tavares	jardim arpoador	1
+33366	Artur Alvim	jardim artur alvim	1
+33456	Vila Matilde	jardim assuncao	1
+33517	Tremembé	jardim ataliba leonel	1
+33689	Alto de Pinheiros	jardim atibaia	1
+33698	Capão Redondo	jardim atlantico	1
+33810	Lajeado	jardim augusta	1
+33910	Iguatemi	jardim augusto	1
+34028	Guaianases	jardim aurea	1
+34091	Itaquera	jardim aurora	1
+34098	Lajeado	jardim aurora	1
+34212	Vila Mariana	jardim aurelia	1
+34274	Capão Redondo	jardim aurelio	1
+34414	Vila Prudente	jardim avelino	1
+34466	Capão Redondo	jardim avenida	1
+34560	Grajaú	jardim azano	1
+34669	Tremembé	jardim azano i	1
+34765	Tremembé	jardim azano ii	1
+34871	São Rafael	jardim bandeirante	1
+34954	Jaraguá	jardim bandeirantes	1
+35097	Aricanduva	jardim barreira grande	1
+35162	Vila Curuçá	jardim bartira	1
+35270	Raposo Tavares	jardim batalha	1
+35343	Cidade Dutra	jardim beatriz	1
+35395	São Miguel	jardim beatriz	1
+35452	Freguesia do Ó	jardim bela vista	1
+35486	Santo Amaro	jardim bela vista	1
+35612	Jaguara	jardim belaura	1
+35616	Grajaú	jardim belcito	1
+35755	Ermelino Matarazzo	jardim belem	1
+35820	Itaim Paulista	jardim benfica	1
+35919	Cidade Dutra	jardim bichinhos	1
+36001	Jardim Ângela	jardim boa esperanca	1
+36002	Capão Redondo	jardim boa esperanca	1
+36134	Raposo Tavares	jardim boa vista (zona oeste)	1
+36197	Jardim São Luís	jardim boa vista (zona sul)	1
+36297	Jabaquara	jardim bom clima	1
+36386	Capão Redondo	jardim bom pastor	1
+36488	Campo Limpo	jardim bom refugio	1
+36659	Butantã	jardim bonfiglioli	1
+36687	Cidade Dutra	jardim bonito	1
+36768	Grajaú	jardim bonito	1
+36864	Grajaú	jardim borba gato	1
+36964	Sacomã	jardim botucatu	1
+37098	Vila Medeiros	jardim brasil	1
+37110	Artur Alvim	jardim brasil	1
+37130	Campo Belo	jardim brasil	1
+37159	Brasilândia	jardim brasilia	1
+37162	Jaraguá	jardim brasilia	1
+37181	Cidade Líder	jardim brasilia	1
+37248	Grajaú	jardim brasilia	1
+37362	Lajeado	jardim brigida	1
+37512	Anhanguera	jardim britania	1
+37541	Jardim São Luís	jardim bronzato	1
+37655	São Rafael	jardim buriti	1
+37768	Campo Grande	jardim belgica	1
+37861	Vila Sônia	jardim cabore	1
+37980	Jaçanã	jardim cabucu	1
+38044	Freguesia do Ó	jardim cachoeira	1
+38169	Aricanduva	jardim caguacu	1
+38209	Jardim Ângela	jardim caicara	2
+38360	Ponte Rasa	jardim caju	1
+38432	Rio Pequeno	jardim california	1
+38489	Alto de Pinheiros	jardim california	1
+38508	Itaim Paulista	jardim camargo novo	1
+38604	Itaim Paulista	jardim camargo velho	1
+38726	Raposo Tavares	jardim cambara	1
+38821	Vila Sônia	jardim cambore	1
+38880	Grajaú	jardim campinas	1
+38997	Parelheiros	jardim campo belo	1
+39112	Campo Grande	jardim campo grande	1
+39176	Campo Limpo	jardim campo limpo	1
+39181	Tremembé	jardim campo limpo	1
+39266	Capão Redondo	jardim campo de fora	1
+39362	Capão Redondo	jardim campo dos ferreiros	1
+39474	Lajeado	jardim campos	1
+39482	Vila Curuçá	jardim campos	1
+39577	Cangaíba	jardim cangaiba	1
+39649	Jardim Ângela	jardim capela	1
+39749	Jardim São Luís	jardim capelinha	1
+39842	Capão Redondo	jardim capao redondo	1
+39998	Santo Amaro	jardim caravelas	1
+40086	Artur Alvim	jardim cardoso	1
+40175	Mandaqui	jardim carlu	1
+40265	Santana	jardim carmen veronica	1
+40346	Vila Curuçá	jardim carolina	1
+40423	Brasilândia	jardim carombe	1
+40533	Parelheiros	jardim casa grande	1
+40638	Vila Jacuí	jardim casa pintada	1
+40709	Jardim São Luís	jardim casablanca	1
+40800	Grajaú	jardim castro alves	1
+40904	Campo Limpo	jardim catanduva	1
+41049	Aricanduva	jardim catarina	1
+41171	Butantã	jardim caxingui	1
+41208	Cachoeirinha	jardim ceci	1
+41304	Cachoeirinha	jardim cecy	1
+41438	Santo Amaro	jardim cedro do libano	1
+41476	Sacomã	jardim celeste	1
+41509	Vila Sônia	jardim celeste	1
+41600	Rio Pequeno	jardim centenario	1
+41747	Butantã	jardim christe	1
+41795	José Bonifácio	jardim cibele	1
+41872	Pirituba	jardim cidade pirituba	1
+41958	Cidade Ademar	jardim cidalia	1
+42140	Jaguara	jardim cimobil	1
+42164	São Mateus	jardim cinco de julho	1
+42241	Jardim Ângela	jardim clara regina	1
+42338	Capão Redondo	jardim clarice	1
+42504	Anhanguera	jardim clei	1
+42539	Itaquera	jardim cleide	1
+42639	Cidade Dutra	jardim cliper	1
+42758	Raposo Tavares	jardim claudia	1
+42818	Capão Redondo	jardim clelia	1
+42825	Jabaquara	jardim clelia	1
+42835	Pedreira	jardim clelia	1
+42916	Sacomã	jardim climax	1
+43009	Jardim Ângela	jardim coimbra	1
+43062	Artur Alvim	jardim coimbra	1
+43141	Vila Sônia	jardim colombo	1
+43215	Cidade Dutra	jardim colonial	1
+43319	São Rafael	jardim colorado	1
+43394	Capão Redondo	jardim comercial	1
+43519	Penha	jardim concordia	1
+43606	Iguatemi	jardim conquista	1
+43720	Campo Grande	jardim consorcio	1
+43777	Jardim Ângela	jardim copacabana	1
+43934	Santo Amaro	jardim cordeiro	1
+43981	Tremembé	jardim corisco	1
+44073	Jabaquara	jardim costa pereira	1
+44217	Aricanduva	jardim cotching	1
+44259	Sapopemba	jardim cotiana	1
+44408	Ponte Rasa	jardim cotinha	1
+44463	Cidade Dutra	jardim cristal	1
+44557	Tremembé	jardim cristina	1
+44645	Jardim São Luís	jardim cristalia	1
+44751	Cidade Dutra	jardim cruzeiro	1
+44841	Jabaquara	jardim cunha bueno	1
+44934	Cidade Ademar	jardim cupece	1
+45057	Jardim Helena	jardim celia	1
+45132	Itaim Paulista	jardim dalmo	1
+45223	Brasilândia	jardim damasceno	1
+45379	São Miguel	jardim danubio azul	1
+45421	Tremembé	jardim dayse	1
+45536	Rio Pequeno	jardim dinorah	1
+45640	Campo Grande	jardim diomar	1
+45700	Sacomã	jardim dionisio	1
+45854	Santo Amaro	jardim dom bosco	1
+45921	Jardim Helena	jardim dom fernando	1
+45986	Capão Redondo	jardim dom jose	1
+46046	Santo Amaro	jardim dom jose	1
+46099	Pedreira	jardim domitila	1
+46194	Lajeado	jardim dona deolinda	1
+46282	Jaraguá	jardim donaria	1
+46406	Raposo Tavares	jardim dracena	1
+46469	Jardim São Luís	jardim dulce	1
+46565	Jardim São Luís	jardim duprat	1
+46681	Cangaíba	jardim danfer	1
+46784	Rio Pequeno	jardim d'abril	1
+46934	Morumbi	jardim d'oeste	1
+46944	Grajaú	jardim edda	1
+47040	Grajaú	jardim edi	1
+47151	Cidade Dutra	jardim edilene	1
+47247	Cidade Dutra	jardim edith	1
+47366	Raposo Tavares	jardim educandario	1
+47444	São Mateus	jardim egle	1
+47523	Sapopemba	jardim elba	1
+47618	Capão Redondo	jardim eledi	1
+47714	Capão Redondo	jardim eledy	1
+47881	Parque do Carmo	jardim elian	1
+47904	Grajaú	jardim eliana	1
+48029	Cidade Líder	jardim eliane	1
+48104	Campo Limpo	jardim elisa	1
+48199	Brasilândia	jardim elisa maria	1
+48296	Campo Limpo	jardim elizabeth	1
+48384	Grajaú	jardim ellus	1
+48492	Itaim Paulista	jardim elza	1
+48583	Brasilândia	jardim elisio	1
+48719	Mandaqui	jardim emilia	1
+48808	Campo Grande	jardim ernestina	1
+48885	Parelheiros	jardim erpim	1
+49032	Anhanguera	jardim escocia	1
+49088	Rio Pequeno	jardim esmeralda	1
+49139	Butantã	jardim esmeralda	1
+49184	Rio Pequeno	jardim ester	1
+49280	Rio Pequeno	jardim ester yolanda	1
+49376	Rio Pequeno	jardim esther	1
+49472	Rio Pequeno	jardim esther yolanda	1
+49554	Lajeado	jardim etelvina	1
+49669	Vila Sônia	jardim eunice	1
+49729	Jardim Ângela	jardim europa	1
+49804	Pinheiros	jardim europa	1
+49836	Itaim Paulista	jardim eva	1
+50006	Morumbi	jardim everest	1
+50034	Lajeado	jardim fanganiello	1
+50144	Rio Pequeno	jardim farah	1
+50216	Campo Limpo	jardim faria lima	1
+50320	Pirituba	jardim felicidade	1
+50429	Cidade Líder	jardim fernandes	1
+50542	Vila Prudente	jardim figueira	1
+50605	Tremembé	jardim filhos da terra	1
+50693	Jardim São Luís	jardim fim de semana	1
+50789	Jardim São Luís	jardim flores	1
+50895	Cidade Dutra	jardim floresta	1
+51009	Jardim Helena	jardim fluminense	1
+51097	Cangaíba	jardim flavio	1
+51173	Jardim São Luís	jardim florida paulista	1
+51277	Tremembé	jardim fontalis	1
+51416	Ponte Rasa	jardim fonte sao miguel	1
+51473	Vila Andrade	jardim fonte do morumbi	1
+51557	Jardim São Luís	jardim francisco	1
+51661	Tremembé	jardim francisco mendes	1
+51751	Brasilândia	jardim franco	1
+51892	Tucuruvi	jardim franca	1
+51937	Jardim Ângela	jardim fraternidade	1
+52088	Ponte Rasa	jardim frugol	1
+52129	Jardim Ângela	jardim fujihara	1
+52224	Grajaú	jardim gaivotas	1
+52377	Aricanduva	jardim galli	1
+52421	Jardim São Luís	jardim germania	1
+52530	Lajeado	jardim gianetti	1
+52640	Rio Pequeno	jardim gilberto	1
+52742	Raposo Tavares	jardim gilda maria	1
+52836	Vila Mariana	jardim gloria	1
+52921	Cangaíba	jardim gondolo	1
+53017	Cangaíba	jardim gonzaga	1
+53103	Cidade Dutra	jardim grauna	1
+53187	Sapopemba	jardim grimaldi	1
+53299	Pedreira	jardim guacuri	1
+53394	Lajeado	jardim guaianases	1
+53499	São Lucas	jardim guairaca	1
+53583	Cidade Dutra	jardim guanabara	1
+53705	Santana	jardim guanandi	1
+53775	Cidade Dutra	jardim guanhembu	1
+53911	Vila Formosa	jardim guannan	1
+53994	Vila Medeiros	jardim guanca	1
+54061	Tremembé	jardim guapira	1
+54151	Brasilândia	jardim guarani	1
+54328	Socorro	jardim guarapiranga	1
+54374	Raposo Tavares	jardim guarau	1
+54433	Jardim Ângela	jardim guaruja	1
+54614	Morumbi	jardim guedala	1
+54627	Sapopemba	jardim guiomar	1
+54721	Jardim Ângela	jardim gustavo	1
+54862	Vila Prudente	jardim hadad	1
+54973	Água Rasa	jardim haddad	1
+55065	Aricanduva	jardim haia do carrao	1
+55110	Cidade Ademar	jardim harmonia	1
+55213	Tremembé	jardim hebrom	1
+55331	José Bonifácio	jardim helena	1
+55400	Campo Limpo	jardim helga	1
+55550	Santo Amaro	jardim heliomar	1
+55610	Vila Curuçá	jardim heloisa	1
+55611	São Lucas	jardim heloisa	1
+55681	Jardim Ângela	jardim herculano	1
+55824	Vila Matilde	jardim hercilia	1
+55893	Parelheiros	jardim herplin	1
+55969	Jardim Ângela	jardim horizonte azul	1
+56148	Vila Leopoldina	jardim humaita	1
+56222	Santo Amaro	jardim hipico	1
+56258	Capão Redondo	jardim iae	1
+56407	Vila Formosa	jardim iara	1
+56453	Jardim São Luís	jardim ibirapuera	1
+56557	Tremembé	jardim ibiratiba	1
+56686	Vila Prudente	jardim ibitirama	1
+56806	Casa Verde	jardim iberia	1
+56832	Grajaú	jardim icarai	1
+56940	Itaim Paulista	jardim ida guedes	1
+57057	Jardim Helena	jardim ideal	1
+57120	Grajaú	jardim ideal	1
+57238	Iguatemi	jardim iguatemi	1
+57315	Sapopemba	jardim iguacu	1
+57409	Jardim Ângela	jardim imbe	1
+57508	Sacomã	jardim imperador	1
+57524	São Mateus	jardim imperador	1
+57632	Rio Pequeno	jardim imperial	1
+57711	Cidade Dutra	jardim imperio	1
+57804	Itaim Paulista	jardim indaia	1
+57892	Sacomã	jardim independencia	1
+57915	São Lucas	jardim independencia	1
+57992	Campo Limpo	jardim inga	1
+58142	Santo Amaro	jardim internacional	1
+58186	Jaraguá	jardim ipanema	1
+58205	Cidade Líder	jardim ipanema	1
+58243	São Miguel	jardim ipanema	1
+58264	Socorro	jardim ipanema	1
+58272	Grajaú	jardim iporanga	1
+58287	Cidade Dutra	jardim iporanga	1
+58389	Parelheiros	jardim ipora	1
+58466	Capão Redondo	jardim ipe	1
+58568	Campo Limpo	jardim iracema	1
+58658	Capão Redondo	jardim irapiranga	1
+58754	Capão Redondo	jardim irene	1
+58763	Itaquera	jardim irene	1
+58857	Jabaquara	jardim itacolomi	1
+58944	Grajaú	jardim itajai	1
+59048	Campo Limpo	jardim itamaraty	1
+59165	Cidade Líder	jardim itapema	1
+59243	Itaquera	jardim itapemirim	1
+59347	Pedreira	jardim itapura	1
+59471	Mandaqui	jardim itatinga	1
+59520	Grajaú	jardim itatiaia	1
+59618	Capão Redondo	jardim itaoca	1
+59773	Água Rasa	jardim italia	1
+59828	São Mateus	jardim itapolis	1
+59907	Sapopemba	jardim iva	1
+59961	Aricanduva	jardim iva	1
+60032	Rio Pequeno	jardim ivana	1
+60131	José Bonifácio	jardim ivete	1
+60195	Sapopemba	jardim ivone	1
+60297	Jabaquara	jardim jabaquara	1
+60392	Campo Limpo	jardim jamaica	1
+60482	Capão Redondo	jardim janiopolis	1
+60505	Cangaíba	jardim janiopolis	1
+60621	Vila Maria	jardim japao	1
+60709	Vila Sônia	jardim jaqueline	1
+60780	Itaim Paulista	jardim jaragua	1
+60826	São Domingos	jardim jaragua	1
+60840	Anhanguera	jardim jaragua	1
+60877	Tremembé	jardim jacana	1
+60960	Grajaú	jardim jau	1
+60985	Cangaíba	jardim jau	1
+61058	Capão Redondo	jardim jeriva	1
+61165	Tremembé	jardim joamar	1
+61261	Tremembé	jardim joana d'arc	1
+61359	Cidade Dutra	jardim jordanopolis	1
+61475	José Bonifácio	jardim jordao	1
+61574	Raposo Tavares	jardim joao xxiii	1
+61672	Campo Grande	jardim jua	1
+61760	Rio Pequeno	jardim julieta	1
+61881	Aricanduva	jardim jurema	1
+61957	Vila Sônia	jardim jussara	1
+62031	Cidade Dutra	jardim kika	1
+62113	Jardim Ângela	jardim kagohara	1
+62251	Ermelino Matarazzo	jardim keralux	1
+62356	Tucuruvi	jardim kerlakian	1
+62415	Cidade Dutra	jardim kioto	1
+62496	Grajaú	jardim labitary	1
+62630	Raposo Tavares	jardim lago	1
+62755	São Miguel	jardim lajeado	1
+62799	Cidade Dutra	jardim lallo	1
+62936	Ponte Rasa	jardim laone	1
+63043	São Miguel	jardim lapena	1
+63109	Vila Sônia	jardim lar sao paulo	1
+63176	Campo Limpo	jardim laranjal	1
+63285	Parelheiros	jardim laranjeiras	1
+63286	Iguatemi	jardim laranjeiras	1
+63372	Itaim Paulista	jardim laura	1
+63471	Cidade Dutra	jardim leblon	1
+63589	Vila Sônia	jardim leila	1
+63656	Campo Limpo	jardim leme	1
+63749	Jardim São Luís	jardim leni	1
+63845	Jardim São Luís	jardim leonardo	1
+63973	Vila Sônia	jardim leonor	1
+64022	Morumbi	jardim leonor	1
+64084	Tucuruvi	jardim leonor mendes de barros	1
+64133	Jardim São Luís	jardim leticia	1
+64232	Campo Limpo	jardim leonidas moreira	1
+64324	Sacomã	jardim liar	1
+64427	Itaquera	jardim lideranca	1
+64514	Capão Redondo	jardim lilah	1
+64630	Iguatemi	jardim limoeiro	1
+64760	Ponte Rasa	jardim lisboa	1
+64837	Vila Sônia	jardim londrina	1
+64921	Cangaíba	jardim lorenzo	1
+64998	Cidade Ademar	jardim los angeles	1
+65097	Jabaquara	jardim lourdes	1
+65224	Campo Grande	jardim luanda	1
+65346	Jardim Paulista	jardim luciana	1
+65443	São Miguel	jardim lucinda	1
+65472	Grajaú	jardim lucelia	1
+65606	Raposo Tavares	jardim luisa	1
+65702	Raposo Tavares	jardim luiza	1
+65766	Cidade Ademar	jardim luso	1
+65872	Pirituba	jardim libano	1
+65962	Jaraguá	jardim lider	1
+66050	Capão Redondo	jardim lidia	1
+66233	Alto de Pinheiros	jardim ligia	1
+66278	Raposo Tavares	jardim lucia	1
+66374	Raposo Tavares	jardim lucio de castro	1
+66444	Itaim Paulista	jardim mabel	1
+66530	Capão Redondo	jardim macedonia	1
+66681	Aricanduva	jardim machado	1
+66722	Capão Redondo	jardim madalena	1
+66832	Pirituba	jardim maggi	1
+66945	Jardim Helena	jardim maia	1
+67055	Mandaqui	jardim malba	1
+67163	Perus	jardim manacas	1
+67258	São Domingos	jardim mangalot	1
+67343	Mandaqui	jardim maninos	1
+67465	Parque do Carmo	jardim maraba	1
+67480	Socorro	jardim maraba	1
+67495	Brasilândia	jardim maracana	1
+67586	Capão Redondo	jardim maraca	1
+67720	Campo Grande	jardim marajoara	1
+67791	Cidade Dutra	jardim marcel	1
+67880	Campo Limpo	jardim marcelo	1
+67973	Jardim São Luís	jardim marco paulo	1
+68097	Jardim Helena	jardim margarida	1
+68181	Parelheiros	jardim maria amalia	1
+68303	Mandaqui	jardim maria antonia	1
+68390	Raposo Tavares	jardim maria augusta	1
+68469	Parelheiros	jardim maria borba	1
+68552	Campo Limpo	jardim maria duarte	1
+68641	Jardim Ângela	jardim maria emilia	1
+68740	Sacomã	jardim maria estela	1
+68853	Parelheiros	jardim maria fernandes	1
+68934	Cidade Ademar	jardim maria luiza	1
+68960	Rio Pequeno	jardim maria luiza	1
+68985	Aricanduva	jardim maria luiza	1
+69046	Iguatemi	jardim maria lidia	1
+69152	Rio Pequeno	jardim maria lucia	1
+69229	Tremembé	jardim maria nazare	1
+69327	Cidade Dutra	jardim maria rita	1
+69416	Campo Limpo	jardim maria sampaio	1
+69512	Campo Limpo	jardim maria virginia	1
+69637	Vila Sônia	jardim maria do carmo	1
+69697	Jardim Ângela	jardim mariane	1
+69792	Grajaú	jardim marilda	1
+69932	Guaianases	jardim marilena	1
+70013	Cidade Líder	jardim marilia	1
+70108	Freguesia do Ó	jardim mariliza	1
+70198	Iguatemi	jardim marilu	1
+70326	Artur Alvim	jardim marina	1
+70383	Cidade Dutra	jardim maringa	1
+70512	Vila Matilde	jardim maringa	1
+70521	Aricanduva	jardim maringa	1
+70652	Jaguara	jardim marisa	1
+70656	Grajaú	jardim marisa	1
+70756	Sacomã	jardim maristela	1
+70780	Freguesia do Ó	jardim maristela	1
+70892	Guaianases	jardim marpu	1
+70949	Jardim São Luís	jardim marquesa	1
+71046	Cidade Ademar	jardim martini	1
+71144	Campo Limpo	jardim martinica	1
+71245	Tremembé	jardim martins silva	1
+71371	Ermelino Matarazzo	jardim matarazzo	1
+71411	Butantã	jardim matarazzo	1
+71429	Jardim São Luís	jardim mazza	1
+71532	Itaim Paulista	jardim meliunas	1
+71622	Cidade Ademar	jardim melo	1
+71721	Jabaquara	jardim mendes gaia	1
+71817	Jabaquara	jardim metropolitano	1
+71864	Ponte Rasa	jardim metropolitano	1
+71907	Sapopemba	jardim mimar	1
+72012	Itaim Paulista	jardim miragaia	1
+72101	Jardim São Luís	jardim mirante	1
+72198	Cidade Ademar	jardim miriam	1
+72204	Itaim Paulista	jardim miriam	1
+72288	Grajaú	jardim mirna	1
+72392	Campo Limpo	jardim mitsutani	1
+72482	Capão Redondo	jardim modelo	1
+72540	Jaçanã	jardim modelo	1
+72604	Freguesia do Ó	jardim monjolo	1
+72700	Freguesia do Ó	jardim monte alegre	1
+72768	Grajaú	jardim monte alegre	1
+72869	Jardim São Luís	jardim monte azul	1
+72998	Raposo Tavares	jardim monte belo	2
+73093	Vila Sônia	jardim monte kemel	1
+73152	Grajaú	jardim monte verde	1
+73166	Cidade Tiradentes	jardim monte verde	1
+73266	Lajeado	jardim moreno	1
+73379	José Bonifácio	jardim morganti	1
+73477	Vila Sônia	jardim morro verde	1
+73622	Morumbi	jardim morumbi	1
+73690	São Domingos	jardim mutinga	1
+73728	Grajaú	jardim myrna	1
+73839	Cidade Dutra	jardim malia i	1
+73935	Cidade Dutra	jardim malia ii	1
+74018	Capão Redondo	jardim monica	1
+74120	Campo Limpo	jardim nadir	1
+74213	Jardim São Luís	jardim nagib salem	1
+74309	Jardim São Luís	jardim nair	1
+74371	São Miguel	jardim nair	1
+74401	Jardim Ângela	jardim nakamura	1
+74582	Morumbi	jardim namba	1
+74650	São Domingos	jardim nardini	1
+74707	Pedreira	jardim nastari	1
+74795	Itaquera	jardim naufal	1
+74906	Vila Curuçá	jardim nazareth	1
+74981	Jardim São Luís	jardim neide	1
+75114	Vila Medeiros	jardim neila	1
+75200	Rio Pequeno	jardim nelly	1
+75324	Jaçanã	jardim nelson	1
+75417	Aricanduva	jardim nice	1
+75493	Vila Sônia	jardim nilson	1
+75558	Cidade Ademar	jardim niteroi	1
+75663	Cidade Dutra	jardim nizia	1
+75777	Jardim Helena	jardim noemia	1
+75894	Artur Alvim	jardim nordeste	1
+75947	Itaquera	jardim norma	1
+76032	Grajaú	jardim noronha	1
+76128	Grajaú	jardim nossa senhora aparecida	1
+76297	Parque do Carmo	jardim nossa senhora do carmo	1
+76326	Cidade Ademar	jardim nosso lar	1
+76473	Aricanduva	jardim nova carrao	1
+76514	Capão Redondo	jardim nova germania	1
+76626	Lajeado	jardim nova guaianases	1
+76704	Grajaú	jardim nova tereza	1
+76820	São Mateus	jardim nove de julho	1
+76951	Vila Formosa	jardim novo carrao	1
+76992	Grajaú	jardim novo horizonte	1
+77088	Grajaú	jardim novo jau	1
+77184	Grajaú	jardim novo lar	1
+77345	Moema	jardim novo mundo	1
+77397	Parelheiros	jardim novo parelheiros	1
+77477	Jardim São Luís	jardim novo santo amaro	1
+77605	Vila Sônia	jardim novo taboao	1
+77676	Itaim Paulista	jardim nelia	1
+77792	Rio Pequeno	jardim odete	1
+77864	Campo Limpo	jardim olinda	1
+77989	Vila Sônia	jardim olympia	1
+78085	Vila Sônia	jardim olimpia	1
+78102	Artur Alvim	jardim olimpia	1
+78151	Brasilândia	jardim ondina	1
+78240	Grajaú	jardim orbam	1
+78345	Jabaquara	jardim oriental	1
+78357	Parelheiros	jardim oriental	1
+78469	Vila Sônia	jardim oriente	1
+78543	Cidade Dutra	jardim orion	1
+78624	Grajaú	jardim orion	1
+78726	Cidade Ademar	jardim orly	1
+78863	Mandaqui	jardim ormendina	1
+78937	Cangaíba	jardim otilia	1
+79021	Tremembé	jardim palmares	1
+79048	Campo Grande	jardim palmares	1
+79131	São Lucas	jardim panorama	1
+79190	Morumbi	jardim panorama	1
+79286	Morumbi	jardim panorama d'oeste	1
+79339	Ermelino Matarazzo	jardim pantanal	1
+79408	Pirituba	jardim paqueta	1
+79508	São Mateus	jardim paraguacu	1
+79631	Mandaqui	jardim paraiso	1
+79688	Campo Limpo	jardim paris	1
+79793	Vila Andrade	jardim parque morumbi	1
+79876	Sacomã	jardim patente	1
+79972	Sacomã	jardim patente novo	1
+80130	Jardim Paulista	jardim paulista	1
+80167	Brasilândia	jardim paulistano	1
+80236	Pinheiros	jardim paulistano	1
+80277	Parelheiros	jardim paulo afonso	1
+80390	Raposo Tavares	jardim paulo vi	1
+80483	José Bonifácio	jardim pedra branca	1
+80563	Pedreira	jardim pedreira	1
+80670	Vila Jacuí	jardim pedro jose nunes	1
+80761	Cangaíba	jardim penha	1
+80896	Limão	jardim pereira leite	1
+80952	Cachoeirinha	jardim peri	1
+81048	Cachoeirinha	jardim peri alto	1
+81144	Cachoeirinha	jardim peri novo	1
+81253	Vila Sônia	jardim peri peri	1
+81299	Butantã	jardim peri peri	1
+81371	Perus	jardim perus	1
+81470	Santo Amaro	jardim petropolis	1
+81596	Jaguara	jardim piaui	1
+81683	Butantã	jardim pinheiros	1
+81751	Vila Formosa	jardim piquerobi	1
+81800	Campo Limpo	jardim piracuama	1
+81896	Campo Limpo	jardim pirajussara	1
+82009	Cangaíba	jardim piratininga	1
+82090	Jaraguá	jardim pirituba	1
+82176	Grajaú	jardim planalto	1
+82177	Jardim Ângela	jardim planalto	1
+82179	Sapopemba	jardim planalto	1
+82206	Vila Jacuí	jardim planalto	1
+82328	Ponte Rasa	jardim ponte rasa	1
+82424	Ponte Rasa	jardim popular	1
+82477	Tremembé	jardim portal i e ii	1
+82563	Sapopemba	jardim porteira grande	1
+82656	Grajaú	jardim porto velho	1
+82767	Cidade Dutra	jardim pouso alegre	1
+82848	Grajaú	jardim prainha	1
+82959	Cidade Dutra	jardim presidente	1
+83048	Campo Limpo	jardim prestes maia	1
+83185	Cursino	jardim previdencia	1
+83247	Cidade Dutra	jardim primavera	1
+83296	Limão	jardim primavera	1
+83335	Brasilândia	jardim princesa	1
+83507	Butantã	jardim prividencia	1
+83520	Grajaú	jardim progresso	1
+83532	Itaim Paulista	jardim progresso	1
+83678	Santo Amaro	jardim promissao	1
+83718	Cidade Ademar	jardim prudencia	1
+83822	Cidade Tiradentes	jardim perola	1
+83918	Cidade Tiradentes	jardim perola ii	1
+84014	Cidade Tiradentes	jardim perola iii	1
+84143	Mandaqui	jardim picolo	1
+84207	Cidade Dutra	jardim quarto centenario	1
+84314	Vila Curuçá	jardim quisisana	1
+84405	Parelheiros	jardim ramala	1
+84493	Tremembé	jardim ramos de freitas	1
+84577	Jardim Ângela	jardim ranieri	1
+84710	Raposo Tavares	jardim raposo tavares	1
+84856	Socorro	jardim real	1
+84872	Campo Limpo	jardim reboucas	1
+84901	Vila Sônia	jardim reboucas	1
+84967	Brasilândia	jardim recanto	1
+85069	Tremembé	jardim recanto verde	1
+85207	Vila Formosa	jardim recanto das rosas	1
+85248	Grajaú	jardim recanto do sol	1
+85401	Aricanduva	jardim record	1
+85441	Jardim Ângela	jardim recreio	1
+85563	São Lucas	jardim redencao	1
+85643	Itaquera	jardim redil	1
+85731	Sapopemba	jardim regina	1
+85824	Grajaú	jardim reimberg	1
+85921	Jardim Ângela	jardim remo	1
+86031	Cidade Dutra	jardim represa	1
+86127	Cidade Dutra	jardim republica	1
+86230	Iguatemi	jardim ricardo	1
+86314	Jaraguá	jardim rincao	1
+86415	Cidade Dutra	jardim rio bonito	1
+86497	Jardim Ângela	jardim rio douro	1
+86624	Rio Pequeno	jardim rio pequeno	1
+86693	Jardim São Luís	jardim riviera	1
+86867	Butantã	jardim rizzo	1
+86906	Vila Curuçá	jardim robru	1
+87009	Jardim Helena	jardim romano	1
+87080	Campo Limpo	jardim roni	1
+87169	Jardim Ângela	jardim rosa maria	1
+87206	Raposo Tavares	jardim rosa maria	1
+87279	Cidade Dutra	jardim rosalina	1
+87368	Campo Limpo	jardim rosana	1
+87477	Parelheiros	jardim roschel	1
+87574	Iguatemi	jardim roseli	1
+87685	Vila Sônia	jardim rosemary	1
+87770	Vila Curuçá	jardim rosina	1
+87912	Anhanguera	jardim rosinha	1
+88006	Casa Verde	jardim rossin	1
+88051	Pedreira	jardim rubilene	1
+88166	Raposo Tavares	jardim rubini	1
+88283	Perus	jardim russo	1
+88350	Vila Jacuí	jardim ruth	1
+88431	Cidade Dutra	jardim regis	1
+88550	Raposo Tavares	jardim rubio	1
+88678	Casa Verde	jardim s kemel	1
+88744	Campo Grande	jardim sabara	1
+88800	Grajaú	jardim sabia	1
+88837	Vila Sônia	jardim sabia	1
+88898	Capão Redondo	jardim sagrado coracao	1
+88992	Grajaú	jardim salinas	1
+89103	Cidade Dutra	jardim samambaia	1
+89184	Grajaú	jardim samara	1
+89192	Campo Limpo	jardim samara	1
+89280	Grajaú	jardim samas	1
+89378	Capão Redondo	jardim sandra	1
+89485	Tremembé	jardim sandra maria	1
+89588	São Mateus	jardim santa adelia	1
+89664	Grajaú	jardim santa barbara	1
+89764	Sacomã	jardim santa cruz	1
+89781	Parelheiros	jardim santa cruz	1
+89784	Cachoeirinha	jardim santa cruz	1
+89800	Campo Grande	jardim santa cruz	1
+89861	Jardim São Luís	jardim santa edwiges	1
+89960	Campo Limpo	jardim santa efigenia	1
+90052	Sacomã	jardim santa emilia	1
+90181	Vila Sônia	jardim santa filomena	1
+90240	Grajaú	jardim santa francisca	1
+90336	Grajaú	jardim santa francisca cabrini	1
+90453	Parelheiros	jardim santa fe	1
+90528	Grajaú	jardim santa fe	1
+90629	Jardim São Luís	jardim santa gertrudes	1
+90808	Socorro	jardim santa helena	1
+90863	Mandaqui	jardim santa ines	1
+90917	Jardim São Luís	jardim santa josefina	1
+91081	Parque do Carmo	jardim santa marcelina	1
+91105	Jardim Ângela	jardim santa margarida	1
+91230	Vila Jacuí	jardim santa maria	1
+91255	Vila Formosa	jardim santa maria	1
+91312	Pirituba	jardim santa monica	1
+91407	Cidade Dutra	jardim santa rita	1
+91507	Pedreira	jardim santa teresinha	1
+91584	Grajaú	jardim santa tereza	1
+91699	Pedreira	jardim santa terezinha	1
+91701	Parelheiros	jardim santa terezinha	1
+91709	Cidade Líder	jardim santa terezinha	1
+91777	Jardim Ângela	jardim santa zelia	1
+91902	Vila Jacuí	jardim santana	1
+91981	Tremembé	jardim santo alberto	1
+92126	Santo Amaro	jardim santo amaro	1
+92183	São Rafael	jardim santo andre	1
+92262	Cidade Ademar	jardim santo antoninho	1
+92369	Vila Andrade	jardim santo antonio	1
+92378	Vila Curuçá	jardim santo antonio	1
+92414	Santo Amaro	jardim santo antonio	1
+92452	Sacomã	jardim santo antonio do cursino	1
+92601	Aricanduva	jardim santo eduardo	1
+92698	São Domingos	jardim santo elias	1
+92792	Ponte Rasa	jardim santo onofre	1
+92864	Rio Pequeno	jardim santos dumont	1
+92931	Sapopemba	jardim sapopemba	1
+93056	Rio Pequeno	jardim sarah	1
+93135	Cidade Dutra	jardim satelite	1
+93225	Jabaquara	jardim scaff	1
+93316	Sacomã	jardim seckler	1
+93427	Pedreira	jardim selma	1
+93549	Vila Maria	jardim senice	1
+93600	Grajaú	jardim sete de setembro	1
+93696	Grajaú	jardim shangri-la	1
+93802	Jaraguá	jardim shangrila	1
+93904	Pirituba	jardim sidnei	1
+94010	Vila Curuçá	jardim silva teles	1
+94141	Água Rasa	jardim silveira	1
+94176	Grajaú	jardim sipramar	1
+94316	Guaianases	jardim soares	1
+94369	Jardim Ângela	jardim solange	1
+94520	Ponte Rasa	jardim soraia	1
+94565	Jardim São Luís	jardim sousa	1
+94670	Cidade Tiradentes	jardim souza ramos	1
+94761	Jabaquara	jardim sul sao paulo	1
+94936	Socorro	jardim suzana	1
+94960	Pirituba	jardim sydney	1
+95088	Vila Matilde	jardim samara	1
+95151	Cidade Dutra	jardim sao benedito	1
+95158	Iguatemi	jardim sao benedito	1
+95302	Casa Verde	jardim sao bento	1
+95330	Capão Redondo	jardim sao bento novo	1
+95424	Grajaú	jardim sao bernardo	1
+95526	Cidade Ademar	jardim sao carlos	1
+95550	Vila Jacuí	jardim sao carlos	1
+95564	Guaianases	jardim sao carlos	1
+95636	São Mateus	jardim sao cristovao	1
+95756	Guaianases	jardim sao domingos	1
+95831	São Rafael	jardim sao francisco	1
+95833	Cangaíba	jardim sao francisco	1
+95909	Jardim São Luís	jardim sao francisco de assis	1
+96003	Sapopemba	jardim sao gabriel	1
+96179	Butantã	jardim sao gilberto	1
+96214	Iguatemi	jardim sao goncalo	1
+96296	Campo Limpo	jardim sao januario	1
+96389	Jardim São Luís	jardim sao joaquim	1
+96486	Cidade Ademar	jardim sao jorge	1
+96518	Raposo Tavares	jardim sao jorge	1
+96614	Raposo Tavares	jardim sao jorge (raposo tavares)	1
+96673	Jardim Ângela	jardim sao jose	1
+96688	Pirituba	jardim sao jose	1
+96692	São Mateus	jardim sao jose	1
+96726	Artur Alvim	jardim sao jose	1
+96769	Jardim Ângela	jardim sao joao	1
+96778	Jaraguá	jardim sao joao	1
+96779	Itaquera	jardim sao joao	1
+96781	Tremembé	jardim sao joao	1
+96791	São Rafael	jardim sao joao	1
+96812	Guaianases	jardim sao joao	1
+96822	Artur Alvim	jardim sao joao	1
+96865	Jardim Ângela	jardim sao lourenco	1
+96867	Sapopemba	jardim sao lourenco	1
+96965	Jardim São Luís	jardim sao luis	1
+96972	Itaim Paulista	jardim sao luis	1
+96973	Tremembé	jardim sao luis	1
+97057	Jardim Ângela	jardim sao manoel	1
+97161	Jabaquara	jardim sao martinho	1
+97185	Jardim Helena	jardim sao martinho	1
+97256	Campo Limpo	jardim sao mateus	1
+97411	São Miguel	jardim sao miguel	1
+97414	Casa Verde	jardim sao miguel	1
+97496	Ponte Rasa	jardim sao nicolau	1
+97554	Lajeado	jardim sao paulo	1
+97577	Santana	jardim sao paulo	1
+97580	Guaianases	jardim sao paulo	1
+97676	Guaianases	jardim sao paulo novo	1
+97772	Guaianases	jardim sao paulo velho	1
+97859	José Bonifácio	jardim sao pedro	1
+97920	Grajaú	jardim sao pedro	1
+98031	Cidade Dutra	jardim sao rafael	1
+98126	Cidade Tiradentes	jardim sao raimundo	1
+98208	Grajaú	jardim sao remo	1
+98388	Vila Leopoldina	jardim sao ricardo	1
+98403	Sapopemba	jardim sao roberto	1
+98504	Campo Limpo	jardim sao roque	1
+98596	Sacomã	jardim sao saverio	1
+98755	São Miguel	jardim sao sebastiao	1
+98812	Freguesia do Ó	jardim sao silvestre	1
+98947	São Miguel	jardim sao vicente	1
+98988	Itaim Paulista	jardim silvia	1
+99062	Morumbi	jardim silvia	1
+99078	Cidade Ademar	jardim sonia	1
+99170	Capão Redondo	jardim sonia inga	1
+99265	Jardim Ângela	jardim sonia regina	1
+99397	Vila Sônia	jardim taboao	1
+99466	Jaraguá	jardim taipas	1
+99553	Jardim Ângela	jardim tamoio	1
+99648	Grajaú	jardim tanay	1
+99801	Aricanduva	jardim tango	1
+99880	Campo Grande	jardim taquaral	1
+99963	São Lucas	jardim teresa	1
+100087	Vila Formosa	jardim textil	1
+100181	Tatuapé	jardim textilia	1
+100251	São Lucas	jardim tealia	1
+100325	Jardim São Luís	jardim thomaz	1
+100436	São Mateus	jardim tiete	1
+100519	Brasilândia	jardim tiro ao pombo	1
+100608	Grajaú	jardim toca	1
+100623	Cidade Dutra	jardim toca	1
+100709	Jardim São Luís	jardim tomas	1
+100813	Tremembé	jardim tremembe	1
+100944	Vila Matilde	jardim triana	1
+100996	Sacomã	jardim tropical	1
+101024	Rio Pequeno	jardim tropical	1
+101125	Vila Sônia	jardim trussardi	1
+101184	Grajaú	jardim tres coracoes	1
+101336	Ponte Rasa	jardim tres marias	1
+101368	Socorro	jardim tres marias	1
+101377	Jardim Ângela	jardim tupi	1
+101560	Socorro	jardim tupa	1
+101569	Jardim Ângela	jardim turquesa	1
+101676	Itaim Paulista	jardim tua	1
+101766	Cidade Ademar	jardim uberaba	1
+101874	Lajeado	jardim ubirajara	1
+101896	Campo Grande	jardim ubirajara	1
+101990	Raposo Tavares	jardim uirapuru	1
+102056	Campo Limpo	jardim umarizal	1
+102152	Campo Limpo	jardim umuarama	1
+102184	Campo Grande	jardim umuarama	1
+102316	Pinheiros	jardim universidade pinheiros	1
+102337	Jardim Ângela	jardim uniao	1
+102433	Jardim Ângela	jardim vale verde	1
+102530	Capão Redondo	jardim vale das virtudes	1
+102626	Capão Redondo	jardim valquiria	1
+102644	São Mateus	jardim valquiria	1
+102720	Grajaú	jardim varginha	1
+102821	Jardim São Luís	jardim vaz de lima	1
+102949	Vila Sônia	jardim vazani	1
+103009	Jardim Ângela	jardim vera cruz	1
+103029	Parelheiros	jardim vera cruz	1
+103031	São Rafael	jardim vera cruz	1
+103058	Perdizes	jardim vera cruz	1
+103109	Jardim São Luís	jardim vergueiro	1
+103243	Ermelino Matarazzo	jardim veronia	1
+103321	Cangaíba	jardim veronica	1
+103478	Morumbi	jardim viana	1
+103580	Jaguara	jardim vieira	1
+103631	Mandaqui	jardim vieira de carvalho	1
+103703	São Rafael	jardim vila carrao	1
+103833	Aricanduva	jardim vila formosa	1
+103908	Vila Mariana	jardim vila mariana	1
+103977	Jabaquara	jardim vila rica	1
+104070	Cidade Ademar	jardim vilas boas	1
+104172	Itaim Paulista	jardim vilma	1
+104303	Mandaqui	jardim virginia	1
+104365	Tremembé	jardim virginia bianca	1
+104455	Brasilândia	jardim vista alegre	1
+104560	Pirituba	jardim vitoria	1
+104657	Vila Andrade	jardim vitoria regia	1
+104726	Morumbi	jardim vitoria regia	1
+104746	Jaraguá	jardim vivan	1
+104833	Jardim Ângela	jardim wanda	1
+104942	Cidade Tiradentes	jardim wilma flor	1
+105037	Tremembé	jardim yara	1
+105125	Jardim São Luís	jardim ymay	1
+105222	Cidade Ademar	jardim zaira	1
+105312	Grajaú	jardim zilda	1
+105448	Campo Grande	jardim da campina	1
+105563	Perus	jardim da conquista	1
+105682	Vila Guilherme	jardim da coroa	1
+105751	Vila Formosa	jardim da divisa	1
+105828	Vila Mariana	jardim da gloria	1
+105910	Iguatemi	jardim da laranjeira	1
+106033	Cursino	jardim da saude	1
+106131	Itaim Bibi	jardim das acacias	1
+106252	Pinheiros	jardim das bandeiras	1
+106287	Cidade Dutra	jardim das camelias	1
+106302	Vila Jacuí	jardim das camelias	1
+106406	Raposo Tavares	jardim das esmeraldas	1
+106465	Jardim Ângela	jardim das flores	1
+106581	Parelheiros	jardim das fontes	1
+106720	Limão	jardim das gracas	1
+106767	Cidade Dutra	jardim das imbuias	1
+106918	Casa Verde	jardim das laranjeiras	1
+106956	Itaim Paulista	jardim das oliveiras	1
+106965	Parelheiros	jardim das oliveiras	1
+107077	Vila Sônia	jardim das palmas	1
+107157	Parelheiros	jardim das palmeiras	1
+107245	Tremembé	jardim das pedras	1
+107328	Grajaú	jardim das pedras (grajau)	1
+107439	Cidade Dutra	jardim das praias	1
+107522	Capão Redondo	jardim das rosas	1
+107533	Tremembé	jardim das rosas	1
+107542	Iguatemi	jardim das rosas	1
+107577	Aricanduva	jardim das rosas	1
+107653	Vila Sônia	jardim das vertentes	1
+107737	Cangaíba	jardim de lorenzo	1
+107823	Cidade Dutra	jardim do alto	1
+107922	Lajeado	jardim do campo	1
+108040	Campo Grande	jardim do carmo	1
+108121	Cangaíba	jardim do castelo	1
+108213	Parelheiros	jardim do centro	1
+108290	Capão Redondo	jardim do colegio	1
+108329	Santana	jardim do colegio	1
+108428	Guaianases	jardim do divino	1
+108512	Rio Pequeno	jardim do lago	1
+108607	Penha	jardim do norte	1
+108731	Perus	jardim do russo	1
+108775	Brasilândia	jardim do tiro	1
+108867	Sapopemba	jardim dona sinha	1
+108975	Cidade Dutra	jardim dos bichinhos	1
+109088	Rio Pequeno	jardim dos cataldis	1
+109214	Santo Amaro	jardim dos estados	1
+109343	Marsilac	jardim dos eucaliptos	1
+109370	Vila Curuçá	jardim dos ipes	1
+109529	Alto de Pinheiros	jardim dos jacarandas	1
+109624	Socorro	jardim dos lagos	1
+109632	Grajaú	jardim dos manacas	1
+109742	Cidade Tiradentes	jardim dos pereiras	1
+109840	Pirituba	jardim dos pinheiros	1
+109960	Campo Grande	jardim dos prados	1
+110017	Jardim Ângela	jardim dos reis	1
+110133	Parelheiros	jardim dos alamos	1
+110273	Moema	jardim luzitania	1
+110305	Jardim Ângela	jardim angela	1
+110307	Sapopemba	jardim angela	1
+110415	Cidade Dutra	jardim icara	1
+110512	Pirituba	jardim iris	1
+110668	Pinheiros	jardins	1
+110748	Jaçanã	jacana	1
+110784	Grajaú	jordanopolis	1
+110915	José Bonifácio	jose bonifacio	1
+111016	Campo Grande	jurubatuba	1
+111072	Grajaú	lago azul	1
+111186	Lajeado	lajeado	1
+111335	Lapa	lapa	1
+111431	Lapa	lapa de baixo	1
+111493	Vila Sônia	lar sao paulo	1
+111599	Mandaqui	lauzane paulista	1
+111723	Liberdade	liberdade	1
+111755	Itaquera	limoeiro	1
+111904	Limão	limao	1
+111992	Ponte Rasa	londrina	1
+112042	Jaraguá	loteamento city jaragua	1
+112140	Itaim Paulista	loteamento santana do agreste	1
+112225	Jardim Ângela	loteamento vila do sol	1
+112379	Perus	loteamento vitoria regia	1
+112506	Bom Retiro	luz	1
+112549	Vila Sônia	l'habitare	1
+112655	Mandaqui	mandaqui	1
+112757	Tatuapé	maranhao	1
+112887	Brás	mercado	1
+112897	Jardim Ângela	miaimi paulista	1
+113026	Saúde	mirandopolis	1
+113153	Moema	moema	1
+113253	Mooca	mooca	1
+113352	Anhanguera	morada do sol	1
+113377	Jardim Ângela	morro do indio	1
+113550	Bela Vista	morro dos ingleses	1
+113654	Morumbi	morumbi	1
+113665	Jardim Ângela	m'boi mirim	1
+113774	Cidade Tiradentes	nascer do sol	1
+113884	Freguesia do Ó	nossa senhora do o	1
+114026	Campo Belo	nova piraju	1
+114066	Lajeado	nucleo lajeado	1
+114167	São Rafael	nucleo residencial morro do sabao	1
+114262	Iguatemi	nucleo residencial sao joao	1
+114349	Tremembé	nucleo do engordador	1
+114478	Vila Prudente	olaria	1
+114609	Consolação	pacaembu	1
+114710	Morumbi	paineiras do morumbi	1
+114741	Parelheiros	paiol velho	1
+114838	Iguatemi	palanque	1
+114929	Vila Andrade	panambi	1
+115027	Pedreira	paque doroteia	1
+115114	Jaraguá	parada	1
+115200	Grajaú	parada 57	1
+115348	Tucuruvi	parada inglesa	1
+115403	Itaquera	parada quinze	1
+115499	Itaquera	parada xv de novembro	1
+115601	Vila Andrade	paraisopolis	1
+115716	Vila Mariana	paraiso	1
+115793	Vila Andrade	paraiso do morumbi	1
+115872	Grajaú	parelheiros	1
+116062	Pari	pari	1
+116079	Cidade Dutra	parque alto do rio bonito	1
+116165	Jardim São Luís	parque alves de lima	1
+116277	Parelheiros	parque amazonas	1
+116364	Itaim Paulista	parque amelia	1
+116448	Grajaú	parque america	1
+116602	São Domingos	parque anhanguera	1
+116616	Anhanguera	parque anhanguera	1
+116636	Jaguara	parque anhanguera	1
+116681	Santana	parque anhembi	1
+116744	Campo Limpo	parque arariba	1
+116886	Artur Alvim	parque artur alvim	1
+116943	Cidade Dutra	parque atlantico	1
+117041	Vila Andrade	parque bairro do morumbi	1
+117139	Pedreira	parque bandeirantes	1
+117270	Artur Alvim	parque bela vista	1
+117319	Brasilândia	parque belem	1
+117430	Iguatemi	parque boa esperanca	1
+117505	Jardim Ângela	parque bologne	1
+117643	Ermelino Matarazzo	parque boturussu	1
+117697	Jardim Ângela	parque boulogne	1
+117792	Grajaú	parque brasil	1
+117892	Sacomã	parque bristol	1
+117997	Tremembé	parque casa de pedra	1
+118124	Guaianases	parque central	1
+118176	Grajaú	parque cocaia	1
+118292	São Mateus	parque colonial	1
+118460	Jaguara	parque continental	1
+118465	Jardim Ângela	parque cristina	1
+118617	Aricanduva	parque cruzeiro do sul	1
+118681	Cangaíba	parque cisper	1
+118752	Grajaú	parque deizy	1
+118874	Vila Curuçá	parque dom joao neri	1
+118970	Vila Curuçá	parque d'abril	1
+119100	Jaçanã	parque edu chaves	1
+119167	Penha	parque eduardo	1
+119240	Campo Limpo	parque esmeralda	1
+119400	Anhanguera	parque esperanca	1
+119429	Jardim São Luís	parque europa	1
+119522	Capão Redondo	parque fernanda	1
+119624	Campo Limpo	parque flamengo	1
+119733	Parelheiros	parque florestal	1
+119812	Sacomã	parque fongaro	1
+119904	Grajaú	parque grajau	1
+120018	Lajeado	parque guaianases	1
+120107	Itaquera	parque guarani	1
+120235	Ermelino Matarazzo	parque guedes	1
+120353	Moema	parque ibirapuera	1
+120418	Saúde	parque imperial	1
+120482	Capão Redondo	parque independencia	1
+120602	Vila Curuçá	parque industrial	1
+120682	Jaraguá	parque industrial city jaragua	1
+120788	São Mateus	parque industrial sao lourenco	1
+120955	Barra Funda	parque industrial tomas edson	1
+120998	Raposo Tavares	parque ipe	1
+121084	Freguesia do Ó	parque itaberaba	1
+121161	Jabaquara	parque jabaquara	1
+121256	Campo Limpo	parque jardim mirassol	1
+121345	Jardim Ângela	parque lago	1
+121442	Capão Redondo	parque ligia	1
+121539	Sapopemba	parque luis mucciolo	1
+121657	Cangaíba	parque libano	1
+121760	Rio Pequeno	parque malagoli	1
+121824	Grajaú	parque manaca	1
+121967	Mandaqui	parque mandaqui	1
+122044	Freguesia do Ó	parque mandi	1
+122113	Jardim Ângela	parque maria alice	1
+122266	São Domingos	parque maria domitila	1
+122325	Parelheiros	parque maria fernanda	1
+122402	Capão Redondo	parque maria helena	1
+122551	Vila Formosa	parque maria luiza	1
+122620	Freguesia do Ó	parque monteiro soares	1
+122760	Anhanguera	parque morro doce	1
+122812	Freguesia do Ó	parque morro grande	1
+122888	Campo Limpo	parque munhoz	1
+122986	Jaraguá	parque nacoes unidas	1
+122991	Cidade Dutra	parque nacoes unidas	1
+123072	Grajaú	parque novo grajau	1
+123171	Sapopemba	parque novo lar	1
+123309	Vila Maria	parque novo mundo	1
+123361	Jardim Ângela	parque novo santo amaro	1
+123510	Artur Alvim	parque paineiras	1
+123557	Jardim São Luís	parque paiolzinho	1
+123661	Tremembé	parque palmas do tremembe	1
+123754	Jaraguá	parque panamericano	1
+123873	Jardim Helena	parque paulistano	1
+123951	Cidade Dutra	parque paulistinha	1
+124039	Brasilândia	parque pedroso	1
+124184	Ponte Rasa	parque penha	1
+124251	São Lucas	parque pereira	1
+124390	Casa Verde	parque peruche	1
+124429	Tremembé	parque petropolis	1
+124512	Grajaú	parque planalto	1
+124627	Pedreira	parque primavera	1
+124717	Tremembé	parque ramos freitas	1
+124808	Campo Limpo	parque reboucas	1
+124952	Ponte Rasa	parque recreio	1
+125000	Campo Limpo	parque regina	1
+125090	Capão Redondo	parque residencial bandeirante	1
+125184	Grajaú	parque residencial cocaia	1
+125306	Vila Curuçá	parque residencial d'abril	1
+125416	Campo Grande	parque residencial julia	1
+125499	São Lucas	parque residencial oratorio	1
+125639	Lapa	parque residencial da lapa	1
+125696	Rio Pequeno	parque rio pequeno	1
+125812	Tucuruvi	parque rodrigues alves	1
+125926	Casa Verde	parque samarita	1
+125964	Itaim Paulista	parque santa amelia	1
+126048	Grajaú	parque santa cecilia	1
+126063	Cidade Dutra	parque santa cecilia	1
+126116	Santa Cecília	parque santa cecilia	1
+126147	Sapopemba	parque santa madalena	1
+126266	Vila Curuçá	parque santa rita	1
+126351	Cidade Dutra	parque santana	1
+126433	Jardim Ângela	parque santo amaro	1
+126533	Jardim São Luís	parque santo antonio	1
+126625	Jardim Ângela	parque santo antonio	1
+126679	Vila Formosa	parque santo antonio	1
+126721	Jardim Ângela	parque santo edwiges	1
+126845	Cidade Líder	parque savoi city	1
+126923	Itaquera	parque sevilha	1
+126973	Água Rasa	parque sevilha	1
+127008	Grajaú	parque shangrila	1
+127174	Casa Verde	parque souza aranha	1
+127258	São Domingos	parque sao domingos	1
+127349	Tatuapé	parque sao jorge	1
+127392	Grajaú	parque sao jose	1
+127515	São Lucas	parque sao lucas	1
+127612	Freguesia do Ó	parque sao luis	1
+127680	Grajaú	parque sao miguel	1
+127776	Grajaú	parque sao paulo	1
+127895	São Rafael	parque sao rafael	1
+127970	Capão Redondo	parque sonia	1
+128074	Jaraguá	parque taipas	1
+128181	Parelheiros	parque tamari	1
+128263	Brasilândia	parque tiete	1
+128379	São Lucas	parque tomas saraiva	1
+128461	Tremembé	parque tremembe	1
+128545	Jardim Ângela	parque universitario espirita	1
+128722	Vila Guilherme	parque velloso	1
+128738	Capão Redondo	parque vera cruz	1
+128877	Vila Maria	parque vila maria	1
+128974	Vila Prudente	parque vila prudente	1
+129076	Tucuruvi	parque vitoria	1
+129204	Vila Leopoldina	parque da lapa	1
+129285	Mooca	parque da mooca	1
+129358	Vila Prudente	parque da vila prudente	1
+129409	Jardim Ângela	parque das cerejeiras	1
+129527	São Rafael	parque das flores	1
+129654	Artur Alvim	parque das paineiras	1
+129711	Cidade Dutra	parque das arvores	1
+129865	Parque do Carmo	parque do carmo	1
+129903	Cidade Dutra	parque do castelo	1
+129986	Capão Redondo	parque do engenho	1
+130081	Jardim Ângela	parque do lago	1
+130193	Vila Andrade	parque do morumbi	1
+130277	Jardim São Luís	parque do otero	1
+130389	Parelheiros	parque do terceiro lago	1
+130467	Sapopemba	parque dos bancarios	1
+130592	Rio Pequeno	parque dos principes	1
+130726	Casa Verde	parte do imirim	1
+130766	Cidade Tiradentes	passagem funda	1
+130895	Mandaqui	pedra branca	1
+130963	Pedreira	pedreira	1
+131071	Penha	penha	1
+131167	Penha	penha de franca	1
+131237	Jardim São Luís	peninha	1
+131378	Perdizes	perdizes	1
+131483	Perus	perus	1
+131596	Pinheiros	pinheiros	1
+131632	Pirituba	piqueri	1
+131720	Campo Limpo	pirajussara	1
+131813	Jardim São Luís	piraporinha	1
+131920	Pirituba	pirituba	1
+132034	Saúde	planalto paulista	1
+132186	Bom Retiro	ponte pequena	1
+132248	Ponte Rasa	ponte rasa	1
+132293	Jardim São Luís	praia azul	1
+132403	Pedreira	praia leblon	1
+132495	Cidade Dutra	praia paulistinha	1
+132581	Jardim São Luís	praia da lagoa	1
+132693	Parelheiros	praias paulistanas	1
+132782	Cidade Tiradentes	prestes maia	1
+132878	Cidade Tiradentes	profeta geremias	1
+132973	Tremembé	protendit	1
+133070	Cidade Tiradentes	perola vitoria	1
+133231	Belém	quarta parada	1
+133294	Vila Prudente	quinta da paineira	1
+133382	Raposo Tavares	raposo tavares	1
+133526	Morumbi	real parque	1
+133558	Iguatemi	recanto alegre	1
+133648	Pirituba	recanto anastacio	1
+133749	Parelheiros	recanto campo belo	1
+133824	Grajaú	recanto marisa	1
+133936	Pirituba	recanto monte alegre	1
+134075	Perus	recanto paraiso	1
+134117	Jardim São Luís	recanto santo antonio	1
+134230	Iguatemi	recanto verde do sol	1
+134319	Cidade Dutra	recanto dos sonhos	1
+134477	República	republica	1
+134504	Campo Limpo	residencial morumbi	1
+134664	Anhanguera	residencial sol nascente 1	1
+134760	Anhanguera	residencial sol nascente 2	1
+134856	Anhanguera	residencial sol nascente 3	1
+134952	Anhanguera	residencial sol nascente 4	1
+134993	Vila Andrade	retiro morumbi	1
+135087	Cidade Dutra	rio bonito	1
+135200	Rio Pequeno	rio pequeno	1
+135269	Jardim São Luís	riviera paulista	1
+135443	Butantã	rolinopolis	1
+135460	Sacomã	sacoma	1
+135583	Penha	santa amelia	1
+135716	Santa Cecília	santa cecilia	1
+135758	Cidade Tiradentes	santa etelvina	1
+135854	Cidade Tiradentes	santa etelvina - metalurgicos	1
+136013	República	santa ifigenia	1
+136079	Mandaqui	santa ines	1
+136169	Santana	santa terezinha	1
+136265	Santana	santana	1
+136382	Santo Amaro	santo amaro	1
+136417	Jardim Ângela	sapato branco	1
+136515	Sapopemba	sapopemba	1
+136642	Saúde	saude	1
+136723	Pedreira	sete praias	1
+136814	Cidade Tiradentes	setor g	1
+136967	Lapa	siciliano	1
+137006	Cidade Tiradentes	sitio conceicao	1
+137103	Cidade Dutra	sitio figueiras do rio bonito	1
+137272	Socorro	socorro	1
+137356	Pinheiros	sumarezinho	1
+137426	Perdizes	sumare	1
+137509	Vila Sônia	super quadra morumbi	1
+137626	São Domingos	sao domingos	1
+137668	Sacomã	sao joao climaco	1
+137794	Saúde	sao judas	1
+137883	São Lucas	sao lucas	1
+137957	Jardim São Luís	sao luis	1
+138068	São Mateus	sao mateus	1
+138211	São Miguel	sao miguel paulista	1
+138289	Cursino	sao salvador	1
+138429	Sé	se	1
+138491	Perus	sitio areiao	1
+138541	Tremembé	sitio barrocada	1
+138713	Alto de Pinheiros	sitio boa vista	1
+138779	Perus	sitio botuquara	1
+138911	Marsilac	sitio canela branca	1
+138916	Sacomã	sitio caraguata	1
+139008	Grajaú	sitio cocaia	1
+139119	Cidade Dutra	sitio itaberaba i	1
+139215	Cidade Dutra	sitio itaberaba ii	1
+139324	Freguesia do Ó	sitio morro grande	1
+139433	Santana	sitio pedra branca	1
+139515	São Lucas	sitio pinheirinho	1
+139605	Parelheiros	sitio represa	1
+139726	Vila Prudente	sitio da figueira	1
+139846	Casa Verde	sitio do mandaqui	1
+139936	Limão	sitio do morro	1
+139981	Tremembé	sitio do piqueri	1
+140117	Tatuapé	tatuape	1
+140143	Belém	tatuape	1
+140182	Iguatemi	terceira divisao	1
+140271	Cidade Dutra	terceira divisao de interlagos	1
+140352	Grajaú	toca do tatu	1
+140461	Tremembé	tres cruzes	1
+140596	Tucuruvi	tucuruvi	1
+140648	Campo Limpo	umarizal	1
+140786	Perdizes	urbanizadora	1
+140872	Campo Grande	usina piratininga	1
+140930	Capão Redondo	valo velho	1
+141112	Socorro	veleiros	1
+141164	Guaianases	vila abc	1
+141244	Freguesia do Ó	vila acre	1
+141352	Campo Grande	vila agueda	1
+141441	Jardim Helena	vila aimore	1
+141516	Itaim Paulista	vila alabama	1
+141632	Rio Pequeno	vila alba	1
+141733	Vila Sônia	vila albano	1
+141805	Tremembé	vila albertina	1
+141962	Campo Belo	vila alexandria	1
+142024	Campo Grande	vila almeida	1
+142126	Vila Prudente	vila alpina	1
+142184	Campo Limpo	vila alteza	1
+142329	Aricanduva	vila alzira	1
+142414	Vila Prudente	vila alois	1
+142531	São Miguel	vila americana	1
+142584	Cachoeirinha	vila amalia	1
+142591	Penha	vila amalia	1
+142703	Mandaqui	vila amelia	1
+142760	Campo Limpo	vila america	1
+142858	Jaraguá	vila ana rosa	1
+142971	São Lucas	vila anadir	1
+143111	Lapa	vila anastacio	1
+143140	Sacomã	vila anchieta	1
+143250	Lajeado	vila andes	1
+143345	Vila Andrade	vila andrade	1
+143464	Campo Grande	vila anhanguera	1
+143590	Casa Verde	vila anhembi	1
+143641	Cangaíba	vila antenor	1
+143769	Aricanduva	vila antonieta	1
+143863	Vila Formosa	vila antonina	1
+143936	Rio Pequeno	vila antonio	1
+144003	Sapopemba	vila antonio dos santos	1
+144104	Campo Limpo	vila analia	1
+144284	Jaguara	vila aparecida ivone	1
+144343	Vila Formosa	vila araci	1
+144409	Cangaíba	vila araguaia	1
+144484	Sacomã	vila arapua	1
+144604	Freguesia do Ó	vila arcadia	1
+144743	Lapa	vila argentina	1
+144816	Vila Matilde	vila aricanduva	1
+144904	Campo Grande	vila arriete	1
+144985	Cangaíba	vila arruda	1
+145127	Lapa	vila augusto	1
+145196	Guaianases	vila aurea	1
+145258	Jaraguá	vila aurora	1
+145261	Tremembé	vila aurora	1
+145295	Mandaqui	vila aurora	1
+145357	Tremembé	vila ayrosa	1
+145493	Tatuapé	vila azevedo	1
+145555	Pedreira	vila babi	1
+145641	Jabaquara	vila babilonia	1
+145768	Campo Grande	vila baby	1
+145827	Sapopemba	vila bancaria	1
+145948	Freguesia do Ó	vila bancaria munhoz	1
+146086	Casa Verde	vila bandeirante	1
+146176	Limão	vila barbosa	1
+146299	Barra Funda	vila barra funda	1
+146307	Sapopemba	vila barreira grande	1
+146416	Pirituba	vila barreto	1
+146566	Casa Verde	vila baruel	1
+146639	Mandaqui	vila basileia	1
+146744	Ponte Rasa	vila bauab	1
+146815	Penha	vila beatriz	1
+146873	Alto de Pinheiros	vila beatriz	1
+146926	Vila Prudente	vila bela	1
+147047	Lapa	vila bela alianca	1
+147096	Cachoeirinha	vila bela vista	1
+147116	Guaianases	vila bela vista	1
+147171	Sapopemba	vila bela do sapopemba	1
+147269	Jardim São Luís	vila belezas	1
+147385	Cangaíba	vila belo horizonte	1
+147517	Água Rasa	vila bertioga	1
+147593	Santana	vila bianca	1
+147664	Pirituba	vila boacava	1
+147745	Jardim Ângela	vila bom jardim	1
+147856	Pirituba	vila bonilha	1
+147952	Pirituba	vila bonilha nova	1
+148070	Raposo Tavares	vila borges	1
+148139	Itaquera	vila bozzini	1
+148232	Campo Limpo	vila brasil	1
+148235	Itaquera	vila brasil	1
+148237	Tremembé	vila brasil	1
+148249	Cangaíba	vila brasil	1
+148277	Tatuapé	vila brasil	1
+148281	Aricanduva	vila brasil	1
+148357	Vila Sônia	vila brasilina	1
+148369	Cursino	vila brasilina	1
+148465	Cursino	vila brasilio machado	1
+148593	Consolação	vila buarque	1
+148633	Cangaíba	vila buenos aires	1
+148652	Guaianases	vila buenos aires	1
+148736	Rio Pequeno	vila butanta	1
+148852	Tucuruvi	vila cachoeira	1
+148955	Perus	vila caiuba	1
+149048	Ponte Rasa	vila caju	1
+149134	Vila Prudente	vila california	1
+149185	Jardim Ângela	vila calu	1
+149291	Itaquera	vila campanela	1
+149334	Artur Alvim	vila campanela	1
+149385	Jabaquara	vila campestre	1
+149509	Vila Sônia	vila campo belo	1
+149608	Campo Grande	vila campo grande	1
+149673	Jabaquara	vila canaa	1
+149839	Belém	vila canero	1
+149862	Cidade Ademar	vila capela	1
+149956	Sacomã	vila caraguata	1
+150112	Limão	vila carbone	1
+150172	Freguesia do Ó	vila cardoso	1
+150243	Sapopemba	vila cardoso franco	1
+150344	Campo Limpo	vila carioca	1
+150375	Ipiranga	vila carioca	1
+150503	Lapa	vila carlina	1
+150559	Penha	vila carlos de campos	1
+150698	Campo Belo	vila carmem	1
+150731	Itaquera	vila carmosina	1
+150828	Itaim Paulista	vila carolina	1
+150876	Jaçanã	vila carolina	1
+150880	Limão	vila carolina	1
+150975	Carrão	vila carrao	1
+151014	Cidade Ademar	vila castelo	1
+151120	Pirituba	vila catupia	1
+151228	Freguesia do Ó	vila cavaton	1
+151307	Itaquera	vila caxambu	1
+151453	Água Rasa	vila celeste	1
+151519	Penha	vila centenario	1
+151611	São Lucas	vila central	1
+151698	Lajeado	vila chabilandia	1
+151867	Barra Funda	vila chalot	1
+151963	Barra Funda	vila charlote	1
+152035	São Miguel	vila chavantes	1
+152136	Anhanguera	vila chica luiza	1
+152233	Parque do Carmo	vila chuca	1
+152262	Cidade Ademar	vila clara	1
+152265	Jabaquara	vila clara	1
+152282	Vila Curuçá	vila clara	1
+152368	Pirituba	vila clarice	1
+152509	Água Rasa	vila claudia	1
+152580	Vila Mariana	vila clementino	1
+152667	São Lucas	vila cleonice	1
+152797	Água Rasa	vila clotilde	1
+152901	Mooca	vila claudia	1
+152944	Pirituba	vila comercial	1
+153050	Vila Curuçá	vila conceicao	1
+153124	Sacomã	vila conde do pinhal	1
+153290	Campo Belo	vila congonhas	1
+153372	Jaçanã	vila constanca	1
+153450	Vila Medeiros	vila constancia	1
+153464	Ponte Rasa	vila constancia	1
+153528	Cachoeirinha	vila continental	1
+153611	Itaquera	vila corberi	1
+153747	Itaim Bibi	vila cordeiro	1
+153836	Guaianases	vila cosmopolita	1
+153944	Ponte Rasa	vila costa melo	1
+153988	Sacomã	vila cristina	1
+154084	Sacomã	vila cristalia	1
+154204	Freguesia do Ó	vila cruz das almas	1
+154329	Aricanduva	vila cruzeiro	1
+154334	Santo Amaro	vila cruzeiro	1
+154402	Saúde	vila cruzeiro do sul	1
+154491	São Lucas	vila cunha bueno	1
+154586	Vila Curuçá	vila curuca	1
+154682	Vila Curuçá	vila curuca nova	1
+154778	Vila Curuçá	vila curuca velha	1
+154873	Cangaíba	vila cisper	1
+154992	Vila Matilde	vila dalila	1
+155072	Rio Pequeno	vila dalva	1
+155137	Jardim Ângela	vila damaceno	1
+155299	São Miguel	vila danubio azul	1
+155355	São Lucas	vila darli	1
+155509	Cambuci	vila deodoro	1
+155535	Cidade Dutra	vila diana	1
+155648	Rio Pequeno	vila dinorah	1
+155736	Cachoeirinha	vila dionisia	1
+155869	Água Rasa	vila diva	1
+155872	Limão	vila diva	1
+155931	São Lucas	vila divina pastora	1
+156025	Cangaíba	vila dom duarte leopoldo	1
+156097	Jardim Ângela	vila dom jose	1
+156244	Tucuruvi	vila dom pedro ii	1
+156344	Ponte Rasa	vila domitilia	1
+156397	Tremembé	vila dona augusta	1
+156481	Jardim Ângela	vila dona meta	1
+156633	Aricanduva	vila dona sara	1
+156685	Tremembé	vila dorna	1
+156835	São Miguel	vila doutor eiras	1
+156880	Pirituba	vila duarte	1
+157002	Vila Medeiros	vila ede	1
+157148	Jaguara	vila eleonora	1
+157162	Jaraguá	vila eliana	1
+157255	Brasilândia	vila elias nigri	1
+157391	Mandaqui	vila eliete	1
+157468	Freguesia do Ó	vila elisabete	1
+157598	Santo Amaro	vila elvira	1
+157635	Sapopemba	vila elze	1
+157732	Sacomã	vila elisio	1
+157851	São Lucas	vila ema	1
+157977	Aricanduva	vila embira	1
+158056	Campo Grande	vila emir	1
+158118	Cidade Ademar	vila erna	1
+158225	Vila Andrade	vila ernesto	1
+158316	Itaim Paulista	vila escolar	1
+158404	Sacomã	vila escudeiro	1
+158509	Tremembé	vila esmeralda	1
+158656	Limão	vila espanhola	1
+158709	Parelheiros	vila esperanca	1
+158719	Penha	vila esperanca	1
+158807	São Rafael	vila ester	1
+158854	Casa Verde	vila ester	1
+158912	Rio Pequeno	vila esther	1
+159024	Vila Matilde	vila ester	1
+159103	Penha	vila eugenio	1
+159207	Ipiranga	vila eulalia	1
+159312	Vila Matilde	vila eutalia	1
+159369	Jabaquara	vila facchini	1
+159452	Jaguara	vila facchini	1
+159513	Aricanduva	vila falconi	1
+159611	Perus	vila fanton	1
+159650	Capão Redondo	vila fazzeoni	1
+159746	Capão Redondo	vila fazzione	1
+159871	Penha	vila feliz	1
+159999	Carrão	vila fernandes	1
+160057	Cangaíba	vila fernando	1
+160186	São Domingos	vila fiat lux	1
+160237	Tremembé	vila fidalgo	1
+160359	Ipiranga	vila firmiano pinto	1
+160453	Vila Sônia	vila ford	1
+160567	Vila Formosa	vila formosa	1
+160633	Cangaíba	vila franci	1
+160711	Brasilândia	vila francos	1
+160808	Campo Limpo	vila franca	1
+160984	Socorro	vila friburgo	1
+161048	Ponte Rasa	vila frugoli	1
+161106	Lajeado	vila fukuya	1
+161235	Itaim Bibi	vila funchal	1
+161283	Sapopemba	vila fatima	1
+161383	Brasilândia	vila gabriel	1
+161512	Campo Grande	vila gea	1
+161599	Penha	vila germaine	1
+161677	Tremembé	vila germinal	1
+161811	Itaim Bibi	vila gertrudes	1
+161891	José Bonifácio	vila gil	1
+161953	Jardim Ângela	vila gilda	2
+162115	São Miguel	vila giordano	1
+162227	Butantã	vila gomes	1
+162293	Tatuapé	vila gomes cardim	1
+162406	Casa Verde	vila gouveia	1
+162493	Água Rasa	vila graciosa	1
+162559	Penha	vila granada	1
+162704	Jaguaré	vila graziela	1
+162767	Mandaqui	vila guaca	1
+162835	Pedreira	vila guacuri	1
+162937	Cangaíba	vila guaraciaba	1
+163017	Jabaquara	vila guarani	1
+163065	Aricanduva	vila guarani	1
+163162	São Domingos	vila guedes	1
+163231	Penha	vila guilherme	1
+163282	Vila Guilherme	vila guilherme	1
+163344	Vila Matilde	vila guilhermina	1
+163441	Cursino	vila gumercindo	1
+163540	Tucuruvi	vila gustavo	1
+163645	Água Rasa	vila haddad	1
+163764	Vila Leopoldina	vila hamburguesa	1
+163804	Freguesia do Ó	vila hebe	1
+163950	Bela Vista	vila helena	1
+163972	Sacomã	vila heliopolis	1
+164067	Sapopemba	vila heloisa	1
+164188	Freguesia do Ó	vila herminia	1
+164281	Cangaíba	vila hilda	1
+164362	Jaraguá	vila homero	1
+164507	Perus	vila hungaresa	1
+164547	Sapopemba	vila ivg	1
+164647	Brasilândia	vila icarai	1
+164825	Alto de Pinheiros	vila ida	1
+164838	Cidade Ademar	vila imperio	1
+164965	Vila Sônia	vila inah	1
+165063	Ipiranga	vila independencia	1
+165203	Butantã	vila indiana	1
+165243	São Lucas	vila industrial	1
+165318	Cidade Ademar	vila inglesa	1
+165440	Rio Pequeno	vila invernada	1
+165463	Vila Formosa	vila invernada	1
+165563	Perus	vila inacio	1
+165618	Lajeado	vila iolanda	1
+165767	Lapa	vila ipojuca	1
+165805	Tremembé	vila irmaos arnoni	1
+165928	Campo Grande	vila isa	1
+165991	Brasilândia	vila isabel	1
+166162	Vila Guilherme	vila isolina	1
+166258	Vila Guilherme	vila isolina mazzei	1
+166279	Brasilândia	vila itaberaba	1
+166380	Itaim Paulista	vila itaim	1
+166401	Jardim Helena	vila itaim	1
+166480	Pirituba	vila itapeva	1
+166587	São Lucas	vila ivone	1
+166684	Freguesia do Ó	vila iorio	1
+166761	Jabaquara	vila jabaquara	1
+166849	Jardim Ângela	vila jaci	1
+166974	Vila Jacuí	vila jacui	1
+167132	Jaguara	vila jaguara	1
+167194	São Domingos	vila jaguari	1
+167312	Jaguaré	vila jaguare	1
+167400	Anhanguera	vila jaragua	1
+167513	Alto de Pinheiros	vila jatai	1
+167526	Cidade Ademar	vila joaniza	1
+167657	Santana	vila jose casa grande	1
+167719	Brasilândia	vila joao batista	1
+167820	Itaim Paulista	vila jurema	1
+167915	Itaquera	vila jussara	1
+168003	Sapopemba	vila julio	1
+168124	Freguesia do Ó	vila julio cesar	1
+168203	Itaquera	vila klaunig	1
+168368	Jaguaré	vila lageado	1
+168464	Jaguaré	vila lajeado	1
+168511	Penha	vila lais	1
+168637	Água Rasa	vila leme	1
+168754	Vila Guilherme	vila leonor	1
+168852	Vila Leopoldina	vila leopoldina	1
+168889	Cangaíba	vila libanesa	1
+168925	Água Rasa	vila libanesa	1
+168988	Freguesia do Ó	vila liberlandia	1
+169144	Socorro	vila lisboa	1
+169156	Sacomã	vila liviero	1
+169273	Cangaíba	vila londrina	1
+169362	Lajeado	vila lourdes	1
+169493	Tatuapé	vila luiza	1
+169548	Itaim Paulista	vila luzimar	1
+169685	Tatuapé	vila luzitana	1
+169759	Penha	vila luisa	1
+169810	Vila Guilherme	vila luisa	1
+169852	Freguesia do Ó	vila lorio	1
+169966	Vila Prudente	vila lucia	1
+170077	Água Rasa	vila lucia elvira	1
+170139	São Lucas	vila macedopolis	1
+170284	Pinheiros	vila madalena	1
+170297	Alto de Pinheiros	vila madalena	1
+170336	Rio Pequeno	vila madeiral	1
+170457	Aricanduva	vila mafra	1
+170527	Penha	vila maluf	1
+170651	Perus	vila malvina	1
+170746	São Domingos	vila mangalot	1
+170817	Jardim Helena	vila mara	1
+170885	Jardim São Luís	vila maracana	1
+170982	Cidade Ademar	vila marari	1
+171093	Parelheiros	vila marcelo	1
+171180	Itaim Paulista	vila margareth	1
+171291	São Lucas	vila margarida	1
+171405	Vila Maria	vila maria alta	1
+171487	Penha	vila maria amalia	1
+171590	Raposo Tavares	vila maria augusta	1
+171693	Vila Maria	vila maria baixa	1
+171802	São Domingos	vila maria eugenia	1
+171904	Limão	vila maria luisa	1
+171952	Pirituba	vila maria trindade	1
+172111	Belém	vila maria zelia	1
+172164	Vila Mariana	vila mariana	1
+172237	Tremembé	vila marieta	1
+172255	Penha	vila marieta	1
+172364	Guaianases	vila marilena	1
+172444	Freguesia do Ó	vila marina	1
+172514	Capão Redondo	vila maringa	1
+172672	Limão	vila marisbela	1
+172745	Santana	vila mariza mazzei	1
+172804	Sacomã	vila marte	1
+172905	Jabaquara	vila mascote	1
+173033	Santana	vila matias	1
+173049	Aricanduva	vila matias	1
+173136	Vila Matilde	vila matilde	1
+173209	Cangaíba	vila mauad	1
+173332	Tucuruvi	vila mazzei	1
+173418	Vila Medeiros	vila medeiros	1
+173484	Itaim Paulista	vila melo	1
+173595	São Lucas	vila mendes	1
+173691	São Lucas	vila mercedes	1
+173785	Cangaíba	vila mesquita	1
+173883	São Lucas	vila miami	1
+173957	Jardim São Luís	vila michelina	1
+174066	Lajeado	vila minerva	1
+174153	Jabaquara	vila mira	1
+174256	Pirituba	vila mirante	1
+174364	Freguesia do Ó	vila miriam	1
+174488	Ponte Rasa	vila mirim	1
+174547	Pedreira	vila missionaria	1
+174628	Sacomã	vila moinho velho	1
+174652	Freguesia do Ó	vila moinho velho	1
+174754	Saúde	vila monte alegre	1
+174846	Vila Jacuí	vila monte santo	1
+174951	Ipiranga	vila monumento	1
+175057	Cursino	vila moraes	1
+175104	Grajaú	vila morais prado	1
+175253	Tatuapé	vila moreira	1
+175308	Itaim Paulista	vila morgadouro	1
+175456	Limão	vila morro alto	1
+175516	Freguesia do Ó	vila morro grande	1
+175621	Vila Sônia	vila morse	1
+175766	Morumbi	vila morumbi	1
+175858	Vila Guilherme	vila munhoz	1
+175873	Jardim Ângela	vila nagibe	1
+176017	Cursino	vila nair	1
+176082	Lajeado	vila nancy	1
+176160	Grajaú	vila narciso	1
+176256	Grajaú	vila nascente	1
+176352	Grajaú	vila natal	1
+176452	Sacomã	vila natalia	1
+176556	Itaim Paulista	vila neila	1
+176694	Artur Alvim	vila nhocune	1
+176796	Jaçanã	vila nilo	1
+176924	Jaguara	vila nilva	1
+176935	Brasilândia	vila nina	1
+177091	São Miguel	vila nitro operaria	1
+177172	Tucuruvi	vila nivi	1
+177290	Campo Belo	vila noca	1
+177401	Alto de Pinheiros	vila nogueira	1
+177435	São Lucas	vila norma	1
+177438	Vila Jacuí	vila norma	1
+177520	Pirituba	vila nossa senhora aparecida	1
+177610	Jaraguá	vila nossa senhora da conceicao	1
+177712	Pirituba	vila nossa senhora do retiro	1
+177795	Sapopemba	vila nova	1
+177920	Rio Pequeno	vila nova alba	1
+178008	Cachoeirinha	vila nova cachoeirinha	1
+178086	Cidade Ademar	vila nova caledonia	1
+178241	Moema	vila nova conceicao	1
+178293	Parelheiros	vila nova esperanca	1
+178428	Jaçanã	vila nova galvao	1
+178495	Penha	vila nova granada	1
+178615	Vila Formosa	vila nova iorque	1
+178748	Jaguara	vila nova jaguara	1
+178832	Jaguaré	vila nova jaguare	1
+178858	Jaraguá	vila nova jaragua	1
+179007	Carrão	vila nova manchester	1
+179053	Tremembé	vila nova mazzei	1
+179092	Tucuruvi	vila nova mazzei	1
+179146	Jaraguá	vila nova parada	1
+179259	São Lucas	vila nova pauliceia	1
+179387	Perus	vila nova perus	1
+179432	Campo Limpo	vila nova pirajussara	1
+179568	Vila Matilde	vila nova savoia	1
+179659	Ermelino Matarazzo	vila nova teresa	1
+179742	Vila Jacuí	vila nova uniao	1
+179835	São Lucas	vila nova utinga	1
+179961	Aricanduva	vila nova york	1
+180056	Ponte Rasa	vila odete	1
+180133	Vila Sônia	vila olga	1
+180249	Aricanduva	vila olinda	1
+180339	Itaim Bibi	vila olimpia	1
+180415	Penha	vila olivia	1
+180541	Água Rasa	vila oratorio	1
+180658	Vila Guilherme	vila paiva	1
+180694	Iguatemi	vila palma	1
+180785	Vila Andrade	vila palmas	1
+180892	Freguesia do Ó	vila palmeira	1
+181003	Ermelino Matarazzo	vila paranagua	1
+181065	Jabaquara	vila parque jabaquara	1
+181180	Freguesia do Ó	vila parque sao luis	1
+181254	Cidade Ademar	vila patrimonial	1
+181385	Santana	vila pauliceia	1
+181501	Água Rasa	vila paulina	1
+181545	Jabaquara	vila paulista	1
+181550	Cidade Tiradentes	vila paulista	1
+181645	Tremembé	vila paulistana	1
+181657	Cangaíba	vila paulistana	1
+181753	Cangaíba	vila paulistania	1
+181851	São Lucas	vila paulo silas	1
+181967	Mandaqui	vila pedra branca	1
+182068	Tucuruvi	vila pedrosa	1
+182179	São Miguel	vila pedroso	1
+182215	Brasilândia	vila penteado	1
+182233	Cangaíba	vila penteado	1
+182320	Pirituba	vila pereira barreto	1
+182416	Pirituba	vila pereira cerca	1
+182555	Perus	vila perus	1
+182642	Perdizes	vila piaui	1
+182684	Jaguara	vila piaui	1
+182716	Freguesia do Ó	vila picinin	1
+182809	Cangaíba	vila pierina	1
+182913	Jardim Helena	vila piracicaba	1
+182984	Campo Limpo	vila pirajussara	1
+183109	Vila Sônia	vila pires	1
+183184	Pirituba	vila pirituba	1
+183288	Cachoeirinha	vila pita	1
+183442	Vila Guilherme	vila pizzotti	1
+183473	Vila Andrade	vila plana	1
+183584	Rio Pequeno	vila polopoli	1
+183698	Perdizes	vila pompeia	1
+183800	Ponte Rasa	vila ponte rasa	1
+183872	Rio Pequeno	vila popo poli	1
+183980	Guaianases	vila popular	1
+184048	Pirituba	vila portugal	1
+184156	Freguesia do Ó	vila portugues	1
+184261	Vila Sônia	vila prado	1
+184288	Limão	vila prado	1
+184357	Vila Sônia	vila praia	1
+184421	Jardim São Luís	vila prel	1
+184568	Ponte Rasa	vila prima	1
+184611	Sapopemba	vila primavera	1
+184636	Freguesia do Ó	vila primavera	1
+184748	Guaianases	vila princesa isabel	1
+184886	Morumbi	vila progredior	1
+184911	Cidade Dutra	vila progresso	1
+184924	Freguesia do Ó	vila progresso	1
+184963	São Miguel	vila progresso	1
+185038	Vila Prudente	vila prudente	1
+185092	Sacomã	vila quaqua	1
+185199	Cidade Dutra	vila quintana	1
+185321	Santana	vila rabelo	1
+185408	Rio Pequeno	vila ramos	1
+185531	Perus	vila rancho alegre	1
+185635	São Miguel	vila raquel	1
+185671	Brasilândia	vila real	1
+185821	Água Rasa	vila regente feijo	1
+185867	Itaquera	vila regina	1
+185872	Pirituba	vila regina	1
+185982	Vila Jacuí	vila reis	1
+186049	Jardim Ângela	vila remo	2
+186147	Sapopemba	vila renato	1
+186160	Pirituba	vila renato	1
+186255	Cidade Dutra	vila represa	1
+186420	Vila Leopoldina	vila ribeiro de barros	1
+186488	Ponte Rasa	vila ribeiro dos santos	1
+186534	Cidade Ademar	vila rica	1
+186535	Brasilândia	vila rica	1
+186536	Campo Limpo	vila rica	1
+186553	Cangaíba	vila rica	1
+186585	Aricanduva	vila rica	1
+186680	Ponte Rasa	vila rio branco	1
+186685	Água Rasa	vila rio branco	1
+186763	Ermelino Matarazzo	vila robertina	1
+186887	Lapa	vila romana	1
+186916	Sacomã	vila romano	1
+187055	Mandaqui	vila romero	1
+187128	Cachoeirinha	vila roque	1
+187213	Tremembé	vila rosa	1
+187317	Parelheiros	vila roschel	1
+187436	Guaianases	vila roseira	1
+187490	Capão Redondo	vila rosina	1
+187651	São Miguel	vila rosaria	1
+187695	Cidade Dutra	vila rubi	1
+187801	Cangaíba	vila rufino	1
+187897	Cangaíba	vila rui barbosa	1
+188005	Vila Sônia	vila rute	1
+188095	Penha	vila re	1
+188202	Vila Medeiros	vila sabrina	1
+188287	Penha	vila salete	1
+188434	Vila Guilherme	vila salvador romeu	1
+188504	Ponte Rasa	vila sampaio	1
+188550	Cidade Ademar	vila santa catarina	1
+188553	Jabaquara	vila santa catarina	1
+188626	Vila Guilherme	vila santa catarina	1
+188701	Água Rasa	vila santa clara	1
+188780	Guaianases	vila santa cruz	1
+188795	Perus	vila santa cruz	1
+188860	Freguesia do Ó	vila santa delfina	1
+189020	Jaguara	vila santa edwiges	1
+189054	Vila Jacuí	vila santa ines	1
+189183	Carrão	vila santa isabel	1
+189226	Jaraguá	vila santa lucrecia	1
+189353	Santana	vila santa luzia	1
+189409	Jardim Ângela	vila santa lucia	1
+189464	Ponte Rasa	vila santa lucia	1
+189506	Capão Redondo	vila santa maria	1
+189568	Limão	vila santa maria	1
+189629	Cidade Líder	vila santa rita	1
+189657	Aricanduva	vila santa rita	1
+189750	Artur Alvim	vila santa teresa	1
+189844	Tucuruvi	vila santa teresinha	1
+189892	Sacomã	vila santa tereza	1
+190019	José Bonifácio	vila santa terezinha	1
+190107	São Lucas	vila santa virginia	1
+190187	Itaquera	vila santana	1
+190207	Penha	vila santana	1
+190216	Campo Grande	vila santana	1
+190217	Santana	vila santana	1
+190336	Limão	vila santista	1
+190399	Penha	vila santo antonio	1
+190415	Mandaqui	vila santo antonio	1
+190474	Jaraguá	vila santo estevam reis7	1
+190613	Tatuapé	vila santo estevao	1
+190705	Cursino	vila santo estefano	1
+190777	Cangaíba	vila santo henrique	1
+190895	Mandaqui	vila santos	1
+190947	Sapopemba	vila sapopemba	1
+191097	Aricanduva	vila sara	1
+191161	Cangaíba	vila sartorio	1
+191261	Cidade Líder	vila savoy	1
+191361	Jardim Helena	vila seabra	1
+191431	Brasilândia	vila serralheiro	1
+191561	Santana	vila siciliano	1
+191628	Itaim Paulista	vila silva teles	1
+191738	Vila Curuçá	vila simone	1
+191875	São Miguel	vila sinha	1
+191932	Freguesia do Ó	vila siqueira	1
+191968	Limão	vila siqueira	1
+192003	Sapopemba	vila sirene	1
+192184	Socorro	vila socorro	1
+192232	Campo Grande	vila sofia	1
+192320	Rio Pequeno	vila sol	1
+192428	Guaianases	vila solange	1
+192487	Brasilândia	vila souza	1
+192632	Ponte Rasa	vila stela	1
+192683	Itaquera	vila suica	1
+192840	Anhanguera	vila sulina	1
+192881	Vila Andrade	vila suzana	1
+192901	Vila Sônia	vila suzana	1
+193002	Vila Medeiros	vila sao camilo	1
+193088	Rio Pequeno	vila sao domingos	1
+193184	Rio Pequeno	vila sao francisco	1
+193208	Ponte Rasa	vila sao francisco	1
+193279	Penha	vila sao geraldo	1
+193292	Guaianases	vila sao geraldo	1
+193369	Cangaíba	vila sao jorge	1
+193452	Itaim Paulista	vila sao jose	1
+193455	Cidade Dutra	vila sao jose	1
+193456	Pirituba	vila sao jose	1
+193479	Ipiranga	vila sao jose	1
+193484	Guaianases	vila sao jose	1
+193537	Jardim Ângela	vila sao judas	1
+193715	Butantã	vila sao luis(zona oeste)	1
+193760	Rio Pequeno	vila sao luis	1
+193851	São Lucas	vila sao nicolau	1
+193926	Cidade Ademar	vila sao paulo	1
+194056	Campo Grande	vila sao pedro	1
+194144	Rio Pequeno	vila sao silvestre	1
+194179	São Miguel	vila sao silvestre	1
+194236	Freguesia do Ó	vila sao vicente	1
+194271	Carrão	vila sao vicente	1
+194316	Itaim Paulista	vila sergio	1
+194425	Cangaíba	vila silvia	1
+194507	Itaquera	vila siria	1
+194629	Vila Sônia	vila sonia	1
+194736	Vila Matilde	vila talarico	1
+194795	Itaquera	vila taquari	1
+194887	Brasilândia	vila teresinha	1
+195004	Freguesia do Ó	vila timoteo	1
+195104	Rio Pequeno	vila tiradentes	1
+195171	Sapopemba	vila tolstoi	1
+195350	Morumbi	vila tramontano	1
+195425	Moema	vila uberabinha	1
+195488	Rio Pequeno	vila universitaria	1
+195580	Freguesia do Ó	vila uniao	1
+195608	Ponte Rasa	vila uniao	1
+195614	Santo Amaro	vila uniao	1
+195664	Pirituba	vila ursulina	1
+195755	Itaquera	vila ursulina e mastrocola	1
+195852	Itaim Paulista	vila valdemar	1
+196006	Casa Verde	vila vanda	1
+196124	Jaguara	vila varanda	1
+196160	Rio Pequeno	vila vasconcelos	1
+196228	Sacomã	vila vera	1
+196239	Cidade Dutra	vila vera	1
+196255	Penha	vila vera	1
+196331	Itaquera	vila verde	1
+196420	Sacomã	vila vergueiro	1
+196516	Sacomã	vila vermelha	1
+196675	São Miguel	vila vessoni	1
+196735	Penha	vila vidal	1
+196803	Sapopemba	vila virginia	1
+196929	Jardim Helena	vila vitoria	1
+197039	Mandaqui	vila vitorio mazzei	1
+197155	São Miguel	vila xavantes	1
+197212	Freguesia do Ó	vila yara	1
+197294	Cidade Tiradentes	vila yolanda	1
+197392	Pirituba	vila zat	1
+197516	Guaianases	vila zefira	1
+197614	Vila Prudente	vila zelina	1
+197677	Tremembé	vila zilda	1
+197818	São Domingos	vila zulmira	1
+197897	Santana	vila zelia	1
+197967	Cidade Dutra	vila da paz	1
+198057	Jabaquara	vila da saude	1
+198146	Capão Redondo	vila das belezas	1
+198244	Sacomã	vila das merces	1
+198352	Pirituba	vila das palmeiras	1
+198466	Saúde	vila do bosque	1
+198568	Campo Grande	vila do castelo	1
+198633	Jabaquara	vila do encontro	1
+198721	Jardim Ângela	vila do sol	1
+198835	Pedreira	vila dos andradas	1
+198936	Cachoeirinha	vila dos andrades	1
+199099	Barra Funda	vila dos ferroviarios	1
+199131	São Lucas	vila dos minerios	1
+199272	Anhanguera	vila dos palmares	1
+199388	Jaguara	vila dos remedios	1
+199441	Cursino	vila agua funda	1
+199538	Perdizes	vila anglo brasileira	1
+199675	Barra Funda	varzea da barra funda	1
+199742	Santo Amaro	varzea de baixo	1
+199795	Pedreira	zavuvus	1
+199963	Barra Funda	agua branca	1
+200009	Santana	agua fria	1
+200113	Cursino	agua funda	1
+200221	Água Rasa	agua rasa	1
