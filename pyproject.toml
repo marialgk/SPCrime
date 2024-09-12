@@ -1,0 +1,36 @@
+[project]
+
+name = "SPCrime"
+description = "Processes São Paulo crime data and maps to a list of postal codes."
+readme = "README.md"
+authors = [{name = "Maria Laura Gabriel Kuniyoshi",
+            email = "marialaura.kuniyoshi@usp.br"}]
+license = {text = "MIT"}
+classifiers = ["Development Status :: 3 - Alpha",
+               "License :: OSI Approved :: MIT License", 
+               "Programming Language :: Python",
+               "Programming Language :: Python :: 3"]
+requires-python = ">= 3.9"
+dependencies = ["pandas",
+                "numpy",
+                "unidecode"]
+dynamic = ["version"]
+
+[project.urls]
+"Source code" = "https://github.com/marialgk/SPCrime"
+"Issue tracker" = "https://github.com/marialgk/SPCrime/issues"
+
+
+[tool.setuptools]
+packages = ["SPCrime"]
+include-package-data = true
+ 
+[tool.setuptools.package-data]
+SPCrime = ["data/*.tsv", "data/pop/*.xlsx", "data/crime/*.xlsx", "data/cep/*.csv"]
+
+[tool.setuptools.dynamic]
+version.attr = "SPCrime.__version__"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,4 @@
+include src/mypackage/data/*.tsv
+include src/mypackage/data/cep/*.csv
+include src/mypackage/data/pop/*.xlsx
+include src/mypackage/data/crime/*.xlsx
