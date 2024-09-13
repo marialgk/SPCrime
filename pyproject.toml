@@ -3,17 +3,14 @@
 name = "SPCrime"
 description = "Processes São Paulo crime data and maps to a list of postal codes."
 readme = "README.md"
-authors = [{name = "Maria Laura Gabriel Kuniyoshi",
-            email = "marialaura.kuniyoshi@usp.br"}]
+authors = [{name = "Maria Laura Kuniyoshi", email = "marialaura.kuniyoshi@usp.br"}]
 license = {text = "MIT"}
 classifiers = ["Development Status :: 3 - Alpha",
                "License :: OSI Approved :: MIT License", 
                "Programming Language :: Python",
                "Programming Language :: Python :: 3"]
 requires-python = ">= 3.9"
-dependencies = ["pandas",
-                "numpy",
-                "unidecode"]
+dependencies = ["pandas", "numpy", "unidecode"]
 dynamic = ["version"]
 
 [project.urls]
@@ -23,6 +20,7 @@ dynamic = ["version"]
 
 [tool.setuptools]
 packages = ["SPCrime"]
+package-dir = {"" = "src"}
 include-package-data = true
  
 [tool.setuptools.package-data]
