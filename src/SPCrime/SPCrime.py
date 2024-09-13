@@ -543,7 +543,7 @@ def crime_rates(crime_type,
     
     if pd.isna(crime_db):
         crime = build_crimeDB(year, dist_dict=dist_dict)
-        crime.to_csv('all_crimes.tsv', sep='\t')
+        crime.to_csv('{year}_crimes.tsv', sep='\t')
     else:
         crime = pd.read_csv(crime_db, sep='\t')
         crime = crime.set_index('Unnamed: 0')
