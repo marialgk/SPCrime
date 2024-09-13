@@ -19,7 +19,7 @@ import numpy as np
 
 
 def check_cep(series,
-              zip_col = 'zip_code',
+              zip_code_col = 'zip_code',
               start=[0, 1],
               autocorrect=False):
     """
@@ -30,8 +30,8 @@ def check_cep(series,
     """
     ID = series.name
     
-    if pd.notna(series['zip_code']):
-        cep = str(int(series['zip_code']))
+    if pd.notna(series[ zip_code_col]):
+        cep = str(int(series[ zip_code_col]))
     else:
         print(f'No CEP for patient {ID}')
         return np.nan, np.nan
@@ -189,11 +189,18 @@ def neighbourhood2dist(df, dist_dict):
        dist_dict = dictionary opened by the the open_dist_dict() function.
         
     """
-    df_dist = pd.merge(df,
-                       dist_dict,
-                       left_on='neighbourhood',
-                       right_on='neighbourhood',
-                       how='left')
+    
+    try:
+        df_dist = pd.merge(df,
+                           dist_dict,
+                           left_on='neighbourhood',
+                           right_on='neighbourhood',
+                           how='left')
+    except ValueError:
+        print('This error happens when we found no valid postal code.')
+        print('Check if your codes are from SP State (start with 0 or 1)')
+        print('Try to turn on the option autocorrect!')
+        raise
     
     df_dist.loc[df_dist['city'] != 'São Paulo', 'district'] = np.nan
     
@@ -210,7 +217,7 @@ def open_crime_file(year):
     """
     Opens the SSP crime database. 
     """
-    file = f'{year.xlsx}'
+    file = f'{year}.xlsx'
     
     with resources.open_binary('SPCrime.data.crime', file) as f:
         crime_S1 = pd.read_excel(f,
@@ -501,21 +508,23 @@ def add_crime_data(series, crime_rates, crimetype):
 
 
 def mapCEP(df,
+           zip_code_col,
            cep_path=np.nan,
            autocorrect=False):
 
-    df[['zip_code_check', 'wrong_zip']] = df.apply(check_cep,
-                                             autocorrect=autocorrect,
-                                             axis=1,
-                                             result_type='expand')
-    if pd.isna(cep_path):
+    df[['zip_code_correct', 'wrong_zip']] = df.apply(check_cep,
+                                                     zip_code_col=zip_code_col,
+                                                     autocorrect=autocorrect,
+                                                     axis=1,
+                                                     result_type='expand')
+    if pd.isna(cep_path):   
         CEP = build_cepDB()
         CEP.to_csv('CEP_table_compiled.tsv', sep='\t')
     else:
         CEP = pd.read_csv(cep_path, sep='\t', dtype=str)
         CEP = CEP.set_index('Unnamed: 0')
     
-    df = cep2neighbourhood(df, 'zip_code_check', CEP)
+    df = cep2neighbourhood(df, 'zip_code_correct', CEP)
     df['neighbourhood'] = df['neighbourhood'].apply(norm_hood)
     districts = open_dist_dict()
     df= neighbourhood2dist(df, districts)
@@ -533,7 +542,7 @@ def crime_rates(crime_type,
     dist_dict = districts.set_index('neighbourhood')['district'].to_dict()
     
     if pd.isna(crime_db):
-        crime = build_crimeDB(year, district_dict=dist_dict, axis=1)
+        crime = build_crimeDB(year, dist_dict=dist_dict)
         crime.to_csv('all_crimes.tsv', sep='\t')
     else:
         crime = pd.read_csv(crime_db, sep='\t')
@@ -563,6 +572,7 @@ def CEP2crime(df, crimetype, crime_rates):
     return df_crime
                 
 def SPCrime(df,
+            zip_code_col,
             crime_type,
             year,
             output_name,
@@ -571,13 +581,13 @@ def SPCrime(df,
             crime_db=None,
             n_percapita=10000):
 
-    districts, df_code = mapCEP(df, cep_path, autocorrect)
+    districts, df_code = mapCEP(df, zip_code_col, cep_path, autocorrect)
     
     crime_freq = crime_rates(crime_type,
                              year,
                              districts,
                              n_percapita=n_percapita,
-                             crime_db=None)
+                             crime_db=crime_db)
     
     df_code_crime = CEP2crime(df_code, crime_type, crime_freq)
 
