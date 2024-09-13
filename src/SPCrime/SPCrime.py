@@ -376,36 +376,36 @@ def filter_crime_type(crime, crime_type):
             'ROUBO A BANCO',
             'HOMICÍDIO DOLOSO POR ACIDENTE DE TRÂNSITO'
             
-            'theft' (includes 'FURTO - OUTROS', 'FURTO DE CARGA',
+            'THEFT' (includes 'FURTO - OUTROS', 'FURTO DE CARGA',
                      'FURTO DE VEÍCULO', 'LATROCÍNIO', 'ROUBO - OUTROS',
                      'ROUBO A BANCO', 'ROUBO DE CARGA', 'ROUBO DE VEÍCULO')
             
-            'cvli' (Violent intentional lethal crimes:
+            'CVLI' (Violent intentional lethal crimes:
                     'HOMICIDIO CULPOSO OUTROS', 
                     'HOMICIDIO CULPOSO POR ACIDENTE DE TRANSITO',
                     'LATROCÍNIO', 'LESÃO CORPORAL SEGUIDA DE MORTE'),
 
-            'cvnli' (Violent intentional non-lethal crimes:
+            'CVNLI' (Violent intentional non-lethal crimes:
                      'ESTUPRO', 'ESTUPRO DE VULNERÁVEL',
                      'LESÃO CORPORAL DOLOSA','TENTATIVA DE HOMICIDIO'),
                 
-           'cvli_cvnli' (violent intentional crimes)
+           'CVI' (violent intentional crimes)
     """
-    cat = {'theft' : ['FURTO - OUTROS', 'FURTO DE CARGA',
+    cat = {'THEFT' : ['FURTO - OUTROS', 'FURTO DE CARGA',
                       'FURTO DE VEÍCULO', 'LATROCÍNIO', 'ROUBO - OUTROS',
                       'ROUBO A BANCO', 'ROUBO DE CARGA', 'ROUBO DE VEÍCULO'],
 
-    'cvli' : ['HOMICIDIO CULPOSO OUTROS', 
+    'CVLI' : ['HOMICIDIO CULPOSO OUTROS', 
               'HOMICIDIO CULPOSO POR ACIDENTE DE TRANSITO',
-             'LATROCÍNIO', 'LESÃO CORPORAL SEGUIDA DE MORTE'],
+              'LATROCÍNIO', 'LESÃO CORPORAL SEGUIDA DE MORTE'],
 
-    'cvnli' : ['ESTUPRO', 'ESTUPRO DE VULNERÁVEL', 'LESÃO CORPORAL DOLOSA',
-             'TENTATIVA DE HOMICIDIO'],
+    'CVNLI' : ['ESTUPRO', 'ESTUPRO DE VULNERÁVEL', 'LESÃO CORPORAL DOLOSA',
+              'TENTATIVA DE HOMICIDIO'],
 
-    'cvli_cvnli' : ['ESTUPRO', 'ESTUPRO DE VULNERÁVEL', 'HOMICIDIO CULPOSO OUTROS',
-                  'HOMICIDIO CULPOSO POR ACIDENTE DE TRANSITO', 'LATROCÍNIO', 
-                  'LESÃO CORPORAL DOLOSA', 'LESÃO CORPORAL SEGUIDA DE MORTE',
-                  'TENTATIVA DE HOMICIDIO']}
+    'CVI' : ['ESTUPRO', 'ESTUPRO DE VULNERÁVEL', 'HOMICIDIO CULPOSO OUTROS',
+             'HOMICIDIO CULPOSO POR ACIDENTE DE TRANSITO', 'LATROCÍNIO', 
+             'LESÃO CORPORAL DOLOSA', 'LESÃO CORPORAL SEGUIDA DE MORTE',
+             'TENTATIVA DE HOMICIDIO']}
 
     # crime[crime_type] = np.nan
     
@@ -592,3 +592,5 @@ def SPCrime(df,
     df_code_crime = CEP2crime(df_code, crime_type, crime_freq)
 
     df_code_crime.to_csv(f'{output_name}.tsv', sep='\t')
+    
+    return df_code_crime
