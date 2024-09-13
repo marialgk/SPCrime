@@ -9,8 +9,8 @@ classifiers = ["Development Status :: 3 - Alpha",
                "License :: OSI Approved :: MIT License", 
                "Programming Language :: Python",
                "Programming Language :: Python :: 3"]
-requires-python = ">= 3.9"
-dependencies = ["pandas", "numpy", "unidecode"]
+requires-python = ">= 3.7"
+dependencies = ["pandas", "numpy", "unidecode", "openpyxl"]
 dynamic = ["version"]
 
 [project.urls]
