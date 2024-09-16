@@ -22,9 +22,8 @@ pip install git+https://github.com/marialgk/SPCrime.git
 ```
 
 **PyPi**:
-```
-pip install SPCrime
-```
+
+A PyPi version will be available soon.
 
 ## Use:
 
