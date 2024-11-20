@@ -1,6 +1,6 @@
 # SP Crime
 
-This simple package processes data from the São Paulo Public Security Secretariat and adds them to a table with a postal 
+This simple package processes data from the São Paulo Public Security Secretariat (SSP-SP) and adds them to a table with a postal 
 code (CEP) column. SPCrime was designed to add data with a Pandas DataFrame object.
 
 As for its name, SPCrime supports only data from São Paulo State. Each Brazilian federation unit has its own
@@ -32,9 +32,9 @@ To import the principal function:
 from SPCrime import SPCrime
 ```
 
-Given a pandas DataFrame containing postal codes, the function SPCrime adds *per capita* crime rates in the location of the 
-zip code. The user specifies the year and type of crime. The program saves a tab-separated file (TSV) of the data frame with
-the new column and returns a DataFrame object.
+Given SSP-SP data and a pandas DataFrame containing postal codes, the function SPCrime adds *per capita* crime rates in the 
+location of the zip code. The user specifies the year and type of crime. The program saves a tab-separated file (TSV) of the
+data frame with the new column and returns a DataFrame object.
 
 For each year, the first run requires the processing of the corresponding SSP criminal database (it takes ~40min). Once this
 database is built and saved, the user can reuse them to get faster runs.
@@ -44,8 +44,8 @@ database is built and saved, the user can reuse them to get faster runs.
 - `df` (Pandas DataFrame): Pandas DataFrame object including a column of postal codes without the hyphen. To understand the
 - postal codes (CEP), refer to the [Correios website](https://www.correios.com.br/enviar/precisa-de-ajuda/tudo-sobre-cep).
 - `zip_code_col` (str): Name of the DataFrame column containing the postal codes (CEP).
-- `year` (int): 2022 or 2023. By the time of SPCrime development, the SP-SSP had public availability of full criminal data of
-  only 2022 and 2023.
+- `crime_db` (str): Name of the file downloaded from the "Dados Criminais" header of the page [https://www.ssp.sp.gov.br/estatistica/consultas](https://www.ssp.sp.gov.br/estatistica/consultas).
+  It is the SSP-SP crime database of a whole year.
 - `output_name` (str): name of the output file, which is a TSV table.
 - `crime_type` (str): crime category for which the *per capita* rate will be added. The possible values, as released by SSP,
    are:
@@ -82,9 +82,9 @@ database is built and saved, the user can reuse them to get faster runs.
 - `cep_path`: None or str. Default None. If you have already built the postal code database, insert the relative
   path and file name. When the database is built, the module saves a file named "CEP_table_compiled.tsv" in the
   working directory.
-- `crime_db´`: None or str. Default None. If you have already built the criminal database for a given year, insert
-  the relative path and file name. When the database is built, the module saves a file named "20**_crimes.tsv" in the
-  working directory.
+- `premade_crime_db´`: Boolean. Default None. If you have already built the criminal database for a given year, insert
+  the file name. When the database is built, the module saves a file named "20**_crimes.tsv" in the working directory.
+  This will make your run significantly faster.
 - `autocorrect`: False, 0 or 1. Default False. A valid postal code (CEP) is eight digits long. In autocorrect, if
   the code is seven-digit long, you can opt to append either 0 or 1 at the beginning of the string. According to the
   Brazilian post service (Correios), 0 stands for the SP Capital, while 1 stands for the rest of the state. We recommend
