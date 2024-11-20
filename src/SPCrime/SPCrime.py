@@ -417,7 +417,8 @@ def filter_crime_type(crime, crime_type):
         crime = crime[crime['NATUREZA_APURADA'] == crime_type]
  
     crime_freq = crime.groupby('LOCATION')['NATUREZA_APURADA'].count()
-    crime_freq = crime_freq.rename(crime_freq)
+    crime_freq = crime_freq.reset_index()
+    crime_freq = crime_freq.rename(columns={'NATUREZA_APURADA':crime_type})
     
     return crime_freq
 
@@ -465,7 +466,7 @@ def prepare_pop_data():
 def rate_calc(series, var_name, pop, n=10000):
     """Calculate per capita rate of a single Pandas Series"""
     try:
-        population = pop.loc[series.name]
+        population = pop.loc[series['LOCATION']]
     except KeyError:
         best_match = get_close_matches(series.name, list(pop.index), n=1)
         try:
@@ -553,15 +554,14 @@ def single_crime_rates(crime_type,
     
     pop = prepare_pop_data()
     
-    crime_fq_rt = pd.DataFrame([crime_freq]).T
-    crime_fq_rt[f'{crime_type}_rate'] = crime_fq_rt.apply(rate_calc,
-                                                          var_name=crime_type,
-                                                          pop=pop,
-                                                          n=n_percapita,
-                                                          axis=1)
+    crime_freq[f'{crime_type}_rate'] = crime_freq.apply(rate_calc,
+                                                        var_name=crime_type,
+                                                        pop=pop,
+                                                        n=n_percapita,
+                                                        axis=1)
     if save_excel == True:
-        crime_fq_rt.to_excel(f'{crime_type}_{crime_db}.xlsx')
-    return crime_fq_rt
+        crime_freq.to_excel(f'{crime_type}_{crime_db}.xlsx')
+    return crime_freq
 
 
 def multiple_crime_rates(crime_types,
