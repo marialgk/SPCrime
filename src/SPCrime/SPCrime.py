@@ -472,7 +472,7 @@ def rate_calc(series, var_name, pop, n=10000):
         try:
             population = pop.loc[best_match[0]]
             print(f'close match: {series.name}')
-        except IndexError:
+        except:
             return np.nan
             print(f'Unavailable population for city {series.name}')
     absolute = series[var_name]
