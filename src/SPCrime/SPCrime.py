@@ -213,22 +213,19 @@ def neighbourhood2dist(df, dist_dict):
 # Dados de 2022: https://www.ssp.sp.gov.br/estatistica/consultas
 
 
-def open_crime_file(year):
+def open_crime_file(file):
     """
     Opens the SSP crime database. 
     """
-    file = f'{year}.xlsx'
-    
-    with resources.open_binary('SPCrime.data.crime', file) as f:
-        crime_S1 = pd.read_excel(f,
-                                header=0,
-                                sheet_name=0)
-        crime_S2 = pd.read_excel(f,
-                                header=0,
-                                sheet_name=1)
-    
+    crime_S1 = pd.read_excel(file,
+                             header=0,
+                             sheet_name=0)
+    crime_S2 = pd.read_excel(file,
+                             header=0,
+                             sheet_name=1)
+
     crime = pd.concat([crime_S1,crime_S2],
-                      axis=0)
+                  axis=0)
     
     crime = crime[['CIDADE', 'BAIRRO', 'NATUREZA_APURADA']]
     return crime
@@ -314,8 +311,8 @@ def city_sp_districts(series, district_dict):
     return series
 
 
-def build_crimeDB(year,
-                  dist_dict):
+def build_crimeDB(file,
+                  districts=None):
     """
     Returns a database with all the crimes that were registered in São Paulo
     state in a given year, and where they occured.
@@ -323,7 +320,12 @@ def build_crimeDB(year,
         crime_db = Year to calculate crime rates.
         dist_dict = dictionary opened by the the open_dist_dict() function.
     """
-    crime = open_crime_file(year)
+    if districts == None:
+        districts = open_dist_dict()
+    districts['district'] = districts['district'].apply(norm_hood)
+    dist_dict = districts.set_index('neighbourhood')['district'].to_dict()
+    
+    crime = open_crime_file(file)
     crime = standardize_crime(crime)
     crime = crime.apply(city_sp_districts,
                         district_dict=dist_dict,
@@ -533,20 +535,15 @@ def mapCEP(df,
 
 
 def single_crime_rates(crime_type,
-                year,
-                districts=None,
-                n_percapita=10000,
-                crime_db=None,
-                save_excel=False):
+                       crime_db,
+                       districts=None,
+                       n_percapita=10000,
+                       premade=False,
+                       save_excel=False):
 
-    if districts == None:
-        districts = open_dist_dict()
-    districts['district'] = districts['district'].apply(norm_hood)
-    dist_dict = districts.set_index('neighbourhood')['district'].to_dict()
-    
-    if pd.isna(crime_db):
-        crime = build_crimeDB(year, dist_dict=dist_dict)
-        crime.to_csv(f'{year}_crimes.tsv', sep='\t')
+    if premade == False:
+        crime = build_crimeDB(crime_db, districts=districts)
+        crime.to_csv(f'{crime_db}_crimes.tsv', sep='\t')
     else:
         crime = pd.read_csv(crime_db, sep='\t')
         crime = crime.set_index('Unnamed: 0')
@@ -562,60 +559,55 @@ def single_crime_rates(crime_type,
                                                           n=n_percapita,
                                                           axis=1)
     if save_excel == True:
-        crime_fq_rt.to_excel(f'{crime_type}_{year}_SP.xlsx')
+        crime_fq_rt.to_excel(f'{crime_type}_{crime_db}.xlsx')
     return crime_fq_rt
 
 
 def multiple_crime_rates(crime_types,
-                         year,
+                         crime_db,
                          districts=None,
                          n_percapita=10000,
-                         crime_db=None,
+                         premade=False,
                          save_excel=False):
-
-    if districts == None:
-        districts = open_dist_dict()
-    districts['district'] = districts['district'].apply(norm_hood)
-    dist_dict = districts.set_index('neighbourhood')['district'].to_dict()
         
-    if pd.isna(crime_db):
-        crime = build_crimeDB(year, dist_dict=dist_dict)
-        crime.to_csv(f'{year}_crimes.tsv', sep='\t')
-        crime_db = f'{year}_crimes.tsv'
+    if premade == False:
+        crime = build_crimeDB(crime_db, districts=districts)
+        crime.to_csv(f'{crime_db}_crimes.tsv', sep='\t')
+        crime_db = f'{crime_db}_crimes.tsv'
         
-    
     crimes = {}
     for i in crime_types:
         crimes[i] = single_crime_rates(i,
-                                       year,
-                                       districts,
-                                       n_percapita,
                                        crime_db,
-                                       save_excel=False)
+                                       districts=districts,
+                                       n_percapita=n_percapita,
+                                       save_excel=False,
+                                       premade=True)
     crime_table = pd.DataFrame.from_dict(crimes)
 
     if save_excel == True:
-        crime_table.to_excel(f'crimes_{year}_SP.xlsx')
+        crime_table.to_excel('crimes_SP.xlsx')
 
     return crime_table
 
 def CEP2crime(df, crimetype, crime_rates):
     df = prepare_patientDB(df, crimetype)
     
-    df_crime = df.apply(add_crime_data,
-                        crime_rates=crime_rates,
-                        crimetype=crimetype,
-                        axis=1)
-    return df_crime
+    for i in crimetype:
+        df = df.apply(add_crime_data,
+                      crime_rates=crime_rates,
+                      crimetype=i,
+                      axis=1)
+    return df
                 
 def SPCrime(df,
             zip_code_col,
             crime_type,
-            year,
+            crime_db,
             output_name,
             cep_path=None,
             autocorrect=False,
-            crime_db=None,
+            premade_crime_db=False,
             n_percapita=10000,
             save_excel=True):
 
@@ -623,17 +615,17 @@ def SPCrime(df,
     
     if len(crime_type) == 1:
         crime_freq = single_crime_rates(crime_type,
-                                        year,
-                                        districts,
+                                        crime_db,
+                                        districts=districts,
                                         n_percapita=n_percapita,
-                                        crime_db=crime_db,
+                                        premade=premade_crime_db,
                                         save_excel=save_excel)
     else:
         crime_freq = multiple_crime_rates(crime_type,
-                                          year,
-                                          districts,
+                                          crime_db,
+                                          districts=districts,
                                           n_percapita=n_percapita,
-                                          crime_db=crime_db,
+                                          premade=premade_crime_db,
                                           save_excel=save_excel)
         
     df_code_crime = CEP2crime(df_code, crime_type, crime_freq)
