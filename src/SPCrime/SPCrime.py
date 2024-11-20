@@ -465,16 +465,20 @@ def prepare_pop_data():
 
 def rate_calc(series, var_name, pop, n=10000):
     """Calculate per capita rate of a single Pandas Series"""
+    location = str(series['LOCATION'])
     try:
-        population = pop.loc[series['LOCATION']]
+        population = pop.loc[location]
     except KeyError:
-        best_match = get_close_matches(series.name, list(pop.index), n=1)
+        best_match = get_close_matches(location, list(pop.index), n=1)
         try:
             population = pop.loc[best_match[0]]
-            print(f'close match: {series.name}')
-        except:
+            print(f'close match: {location}')
+        except IndexError:
             return np.nan
-            print(f'Unavailable population for city {series.name}')
+            print(f'Unavailable population for city {location}')
+        except TypeError:
+            return np.nan
+            print(f'Unavailable population for city {location}')
     absolute = series[var_name]
     rate = n * (absolute / population)
     return rate
