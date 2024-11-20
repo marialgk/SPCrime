@@ -417,6 +417,7 @@ def filter_crime_type(crime, crime_type):
         crime = crime[crime['NATUREZA_APURADA'] == crime_type]
  
     crime_freq = crime.groupby('LOCATION')['NATUREZA_APURADA'].count()
+    crime_freq = crime_freq.rename(columns={'NATUREZA_APURADA':crime_freq})
     
     return crime_freq
 
