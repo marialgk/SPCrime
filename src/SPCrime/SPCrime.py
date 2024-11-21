@@ -582,12 +582,14 @@ def multiple_crime_rates(crime_types,
         
     crimes = {}
     for i in crime_types:
-        crimes[i] = single_crime_rates(i,
-                                       crime_db,
-                                       districts=districts,
-                                       n_percapita=n_percapita,
-                                       save_excel=False,
-                                       premade=True).set_index('LOCATION')
+        cr = single_crime_rates(i,
+                                crime_db,
+                                districts=districts,
+                                n_percapita=n_percapita,
+                                save_excel=False,
+                                premade=True)
+        cr = cr.set_index('LOCATION')[f'{i}_rate']
+        crimes[i] = cr
     crime_table = pd.DataFrame(crimes)
 
     if save_excel == True:
