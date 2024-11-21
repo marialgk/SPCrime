@@ -549,7 +549,7 @@ def single_crime_rates(crime_type,
 
     if premade == False:
         crime = build_crimeDB(crime_db, districts=districts)
-        crime.to_csv(f'{crime_db}_crimes.tsv', sep='\t')
+        crime.to_csv(f'{crime_db[:-5]}_crimes.tsv', sep='\t')
     else:
         crime = pd.read_csv(crime_db, sep='\t')
         crime = crime.set_index('Unnamed: 0')
@@ -577,7 +577,7 @@ def multiple_crime_rates(crime_types,
         
     if premade == False:
         crime = build_crimeDB(crime_db, districts=districts)
-        crime.to_csv(f'{crime_db}_crimes.tsv', sep='\t')
+        crime.to_csv(f'{crime_db[:-5]}_crimes.tsv', sep='\t')
         crime_db = f'{crime_db}_crimes.tsv'
         
     crimes = {}
@@ -588,10 +588,10 @@ def multiple_crime_rates(crime_types,
                                        n_percapita=n_percapita,
                                        save_excel=False,
                                        premade=True)
-    crime_table = pd.DataFrame.from_dict(crimes)
+    crime_table = pd.DataFrame(crimes)
 
     if save_excel == True:
-        crime_table.to_excel('crimes_SP.xlsx')
+        crime_table.to_excel('multiple_crimes_SP.xlsx')
 
     return crime_table
 
