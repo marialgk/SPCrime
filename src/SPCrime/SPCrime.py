@@ -588,12 +588,13 @@ def multiple_crime_rates(crime_types,
                                        n_percapita=n_percapita,
                                        save_excel=False,
                                        premade=True)
-    crime_table = pd.DataFrame(crimes)
+    # crime_table = pd.DataFrame(crimes)
+    return crimes
 
-    if save_excel == True:
-        crime_table.to_excel('multiple_crimes_SP.xlsx')
+    # if save_excel == True:
+    #     crime_table.to_excel('multiple_crimes_SP.xlsx')
 
-    return crime_table
+    # return crime_table
 
 def CEP2crime(df, crimetype, crime_rates):
     df = prepare_patientDB(df, crimetype)
